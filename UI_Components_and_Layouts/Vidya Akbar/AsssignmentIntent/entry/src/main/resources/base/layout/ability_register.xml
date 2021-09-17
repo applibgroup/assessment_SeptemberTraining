@@ -1,0 +1,148 @@
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+
+    >
+
+
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:background_element="$media:regis_back"
+    ohos:orientation="vertical">
+
+
+    <Text
+        ohos:id="$+id:Register"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Register"
+        ohos:text_size="40fp"
+        ohos:text_font="sans-serif-medium"
+        ohos:layout_alignment="center"
+        ohos:top_margin="20fp"
+
+
+        />
+    <TextField
+        ohos:id="$+id:studname"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:hint="StudentName"
+        ohos:left_margin="20fp"
+        ohos:top_margin="20fp"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:register_background_textfield"
+        ohos:right_padding="150fp"
+        ohos:left_padding="30fp"
+        />
+
+
+    <TextField
+        ohos:id="$+id:rollno"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:hint="RollNo"
+        ohos:left_margin="20fp"
+        ohos:top_margin="30fp"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:register_background_textfield"
+        ohos:right_padding="218fp"
+        ohos:left_padding="30fp"
+        />
+
+
+    <TextField
+        ohos:id="$+id:Deptname"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:hint="DepartmentName"
+        ohos:left_margin="20fp"
+        ohos:top_margin="30fp"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:register_background_textfield"
+        ohos:right_padding="115fp"
+        ohos:left_padding="30fp"
+        />
+
+    <TextField
+        ohos:id="$+id:clgname"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:hint="CollageName"
+        ohos:left_margin="20fp"
+        ohos:top_margin="30fp"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:register_background_textfield"
+        ohos:right_padding="155fp"
+        ohos:left_padding="30fp"
+        />
+
+    <TextField
+        ohos:id="$+id:universe"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:hint="UniversityName"
+        ohos:left_margin="20fp"
+        ohos:top_margin="30fp"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:register_background_textfield"
+        ohos:right_padding="135fp"
+        ohos:left_padding="30fp"
+        />
+
+    <Text
+        ohos:id="$+id:gender"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Gender"
+        ohos:text_size="20fp"
+        ohos:top_margin="20fp"
+        ohos:left_margin="20fp"
+        />
+    <RadioContainer
+        ohos:id="$+id:radio_container"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="10vp"
+        ohos:left_margin="30fp"
+        ohos:orientation="horizontal">
+        <RadioButton
+            ohos:id="$+id:radio_button_1"
+            ohos:height="40vp"
+            ohos:width="match_content"
+            ohos:text="Male"
+            ohos:left_margin="20fp"
+            ohos:right_margin="50fp"
+            ohos:text_size="20fp"/>
+
+        <RadioButton
+            ohos:id="$+id:radio_button_2"
+            ohos:height="40vp"
+            ohos:width="match_content"
+            ohos:text="Female"
+            ohos:text_size="20fp"/>
+
+        <!-- Add more radio buttons as needed -->
+
+    </RadioContainer>
+
+    <Button
+        ohos:id="$+id:button"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text_size="27fp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="SignUp"
+        ohos:text_color="$ohos:color:id_color_bottom_tab_icon_auxcolor01_dark"
+        ohos:background_element="$graphic:capsule_button_element"
+        ohos:top_margin="40fp"
+        ohos:left_margin="0vp"
+        ohos:bottom_margin="15vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+        />
+</DirectionalLayout>
+</ScrollView>
