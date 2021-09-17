@@ -1,0 +1,391 @@
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:scrollview"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#FFDEAD"
+    ohos:top_margin="32vp"
+    ohos:bottom_padding="16vp"
+    ohos:layout_alignment="horizontal_center">
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+
+        <Text
+            ohos:id="$+id:Personal"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="30fp"
+            ohos:top_margin="40fp"
+            ohos:text="Personal"
+            ohos:text_size="30fp"
+            ohos:text_color="#FF0E0E0E"
+            ohos:text_weight="700"
+            ohos:text_font="sans-serif-medium"
+
+            />
+
+        <Text
+            ohos:id="$+id:NameText"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Name"
+            ohos:text_size="25fp"
+            ohos:text_font="sans-serif-medium"
+            ohos:alpha="0.8"
+            ohos:top_margin="20fp"
+            ohos:left_margin="30fp"
+
+            />
+
+        <TextField
+            ohos:id="$+id:Name"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="30fp"
+            ohos:left_padding="10fp"
+            ohos:bottom_margin="10vp"
+            ohos:right_padding="170fp"
+            ohos:top_padding="5fp"
+            ohos:hint="John Doe"
+            ohos:text_size="25fp"
+            ohos:background_element="#FFF1F0F0"
+            />
+
+        <Text
+            ohos:id="$+id:DOB"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Date of Birth"
+            ohos:text_size="25fp"
+            ohos:text_font="sans-serif-medium"
+            ohos:alpha="0.8"
+            ohos:left_margin="30fp"
+            />
+        <DatePicker
+            ohos:height="match_content"
+            ohos:width="250vp"
+            ohos:id="$+id:date_picker"
+            ohos:date_order="month-day-year"
+            ohos:normal_text_color="#FF7A7A7A"
+            ohos:normal_text_size="15fp"
+            ohos:layout_alignment="center"
+            ohos:selected_text_color="#FF030303"
+            ohos:selected_text_size="18fp"
+            />
+
+        <Text
+            ohos:id="$+id:Animal"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="What is your spiritual Animal?"
+            ohos:text_size="23fp"
+            ohos:text_font="sans-serif-medium"
+            ohos:alpha="0.8"
+            ohos:top_margin="5fp"
+            ohos:left_margin="30fp"
+            ohos:truncation_mode="auto_scrolling"
+            />
+        <DependentLayout
+            ohos:height="match_content"
+            ohos:width="match_content">
+            <Text
+                ohos:id="$+id:Lion"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Lion"
+                ohos:text_size="25fp"
+                ohos:text_font="sans-serif-medium"
+                ohos:alpha="0.8"
+                ohos:top_margin="5fp"
+                ohos:left_margin="25fp"
+                ohos:truncation_mode="auto_scrolling"
+                ohos:background_element="#FFFFFF"
+                ohos:left_padding="10fp"
+                ohos:right_padding="10fp"
+                />
+            <Text
+                ohos:id="$+id:Tiger"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Tiger"
+                ohos:text_size="25fp"
+                ohos:text_font="sans-serif-medium"
+                ohos:alpha="0.8"
+                ohos:top_margin="5fp"
+                ohos:left_margin="10fp"
+                ohos:truncation_mode="auto_scrolling"
+                ohos:background_element="#FFFFFF"
+                ohos:end_of="$id:Lion"
+                ohos:left_padding="10fp"
+                ohos:right_padding="10fp"
+                />
+            <Text
+                ohos:id="$+id:Bear"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Bear"
+                ohos:text_size="25fp"
+                ohos:text_font="sans-serif-medium"
+                ohos:alpha="0.8"
+                ohos:top_margin="5fp"
+                ohos:left_margin="10fp"
+                ohos:truncation_mode="auto_scrolling"
+                ohos:background_element="#FFFFFF"
+                ohos:end_of="$id:Tiger"
+                ohos:left_padding="10fp"
+                ohos:right_padding="10fp"
+                />
+            <Text
+                ohos:id="$+id:Bull"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Bull"
+                ohos:text_size="25fp"
+                ohos:text_font="sans-serif-medium"
+                ohos:alpha="0.8"
+                ohos:top_margin="5fp"
+                ohos:left_margin="10fp"
+                ohos:truncation_mode="auto_scrolling"
+                ohos:background_element="#FFFFFF"
+                ohos:end_of="$id:Bear"
+                ohos:left_padding="10fp"
+                ohos:right_padding="10fp"
+                />
+
+
+        </DependentLayout>
+
+
+
+        <Text
+            ohos:id="$+id:Account"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="30fp"
+            ohos:top_margin="20fp"
+            ohos:text="Account"
+            ohos:text_size="30fp"
+            ohos:text_color="#FF0E0E0E"
+            ohos:text_weight="700"
+            ohos:text_font="sans-serif-medium"
+            ohos:basement="#FFF30707"
+            />
+        <Text
+            ohos:id="$+id:EmailText"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Email"
+            ohos:text_size="25fp"
+            ohos:text_font="sans-serif-medium"
+            ohos:alpha="0.8"
+            ohos:top_margin="10fp"
+            ohos:left_margin="30fp"
+
+            />
+
+        <TextField
+            ohos:id="$+id:Email"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="30fp"
+            ohos:left_padding="10fp"
+            ohos:bottom_margin="20vp"
+            ohos:right_padding="100fp"
+            ohos:top_padding="5fp"
+            ohos:hint="xyz@gmail.com"
+            ohos:text_size="25fp"
+            ohos:background_element="#FFF1F0F0"
+            />
+
+        <Text
+            ohos:id="$+id:PasswordText"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Password"
+            ohos:text_size="25fp"
+            ohos:text_font="sans-serif-medium"
+            ohos:alpha="0.8"
+            ohos:top_margin="0fp"
+            ohos:left_margin="30fp"
+
+            />
+
+        <TextField
+            ohos:id="$+id:Password"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="30fp"
+            ohos:left_padding="10fp"
+            ohos:bottom_margin="20vp"
+            ohos:right_padding="280fp"
+            ohos:top_padding="5fp"
+            ohos:text_size="25fp"
+            ohos:text_input_type="pattern_password"
+            ohos:background_element="#FFF1F0F0"
+            />
+
+        <Text
+            ohos:id="$+id:VerifyPasswordText"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Verify Password"
+            ohos:text_size="25fp"
+            ohos:text_font="sans-serif-medium"
+            ohos:alpha="0.8"
+            ohos:top_margin="0fp"
+            ohos:left_margin="30fp"
+
+
+            />
+
+        <TextField
+            ohos:id="$+id:VerifyPassword"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="30fp"
+            ohos:left_padding="10fp"
+            ohos:bottom_margin="30vp"
+            ohos:right_padding="280fp"
+            ohos:top_padding="5fp"
+            ohos:text_size="25fp"
+            ohos:text_input_type="pattern_password"
+            ohos:background_element="#FFF1F0F0"
+            />
+
+
+        <Text
+            ohos:id="$+id:Contact"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="30fp"
+            ohos:top_margin="0fp"
+            ohos:text="Contact"
+            ohos:text_size="30fp"
+            ohos:text_color="#FF0E0E0E"
+            ohos:text_weight="700"
+            ohos:text_font="sans-serif-medium"
+            ohos:basement="#FFF30707"
+            />
+        <Text
+            ohos:id="$+id:AddressText"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Address"
+            ohos:text_size="25fp"
+            ohos:text_font="sans-serif-medium"
+            ohos:alpha="0.8"
+            ohos:top_margin="20fp"
+            ohos:left_margin="30fp"
+
+            />
+
+        <TextField
+            ohos:id="$+id:Address"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="30fp"
+            ohos:left_padding="10fp"
+            ohos:bottom_margin="10vp"
+            ohos:right_padding="95fp"
+            ohos:top_padding="0fp"
+            ohos:hint="938 Jackson St."
+            ohos:text_size="25fp"
+            ohos:background_element="#FFF1F0F0"
+            />
+        <Text
+            ohos:id="$+id:CityText"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="City"
+            ohos:text_size="25fp"
+            ohos:text_font="sans-serif-medium"
+            ohos:alpha="0.8"
+            ohos:top_margin="20fp"
+            ohos:left_margin="30fp"
+
+            />
+
+        <TextField
+            ohos:id="$+id:City"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="30fp"
+            ohos:left_padding="10fp"
+            ohos:bottom_margin="20vp"
+            ohos:right_padding="95fp"
+            ohos:top_padding="5fp"
+            ohos:text_size="25fp"
+            ohos:hint="938 Jackson St."
+            ohos:background_element="#FFF1F0F0"
+            />
+
+        <Text
+            ohos:id="$+id:StateText"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="State"
+            ohos:text_size="25fp"
+            ohos:text_font="sans-serif-medium"
+            ohos:alpha="0.8"
+            ohos:top_margin="10fp"
+            ohos:left_margin="30fp"
+
+
+            />
+
+        <TextField
+            ohos:id="$+id:State"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="30fp"
+            ohos:left_padding="10fp"
+            ohos:bottom_margin="30vp"
+            ohos:right_padding="80fp"
+            ohos:top_padding="5fp"
+            ohos:text_size="25fp"
+            ohos:background_element="#FFF1F0F0"
+            ohos:hint="Select Your State"
+            />
+
+        <Text
+            ohos:id="$+id:PhoneText"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Phone"
+            ohos:text_size="25fp"
+            ohos:text_font="sans-serif-medium"
+            ohos:alpha="0.8"
+            ohos:top_margin="10fp"
+            ohos:left_margin="30fp"
+
+
+            />
+
+        <TextField
+            ohos:id="$+id:Phone"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_margin="30fp"
+            ohos:left_padding="10fp"
+            ohos:bottom_margin="30vp"
+            ohos:right_padding="130fp"
+            ohos:top_padding="5fp"
+            ohos:text_size="25fp"
+            ohos:background_element="#FFF1F0F0"
+            ohos:text_input_type="pattern_number"
+            ohos:hint="9089898989"
+            />
+        <ProgressBar
+            ohos:id="$+id:progressbar"
+            ohos:progress_width="10vp"
+            ohos:height="60vp"
+            ohos:width="600vp"
+            ohos:max="100"
+            ohos:background_instruct_element="#FFFFFF"
+            ohos:progress_element="#FF9900"
+            ohos:progress="60"/>
+    </DirectionalLayout>
+</ScrollView>

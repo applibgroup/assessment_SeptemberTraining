@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    >
+
+
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:background_element="$media:back"
+    ohos:alpha="1"
+
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_signup"
+        ohos:bubble_width="20"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="SIGN UP"
+        ohos:text_color="$ohos:color:id_color_bottom_tab_icon_auxcolor01_dark"
+        ohos:text_size="40vp"
+        ohos:top_margin="50fp"
+        ohos:bottom_margin="50fp"
+
+
+        />
+
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:id="$+id:Email"
+        ohos:layout_alignment="center"
+        ohos:hint="Enter Email"
+        ohos:text_size="30fp"
+        ohos:text_color="$ohos:color:id_color_bottom_tab_icon_auxcolor01_dark"
+        ohos:bottom_padding="20fp"
+        ohos:element_left="$media:email"
+        ohos:element_padding="40fp"
+        ohos:basement="#FFF7F7FA"
+        />
+
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:id="$+id:Password"
+        ohos:layout_alignment="center"
+        ohos:hint="Enter Password"
+        ohos:text_size="30fp"
+        ohos:text_color="$ohos:color:id_color_bottom_tab_icon_auxcolor01_dark"
+        ohos:bottom_padding="20fp"
+        ohos:element_left="$media:lock"
+        ohos:element_padding="10fp"
+        ohos:text_input_type="pattern_password"
+        ohos:scale_mode="inside"
+        ohos:basement="#FFF7F7FA"
+        />
+
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:id="$+id:Username"
+        ohos:layout_alignment="center"
+        ohos:hint="Enter Username"
+        ohos:text_size="30fp"
+        ohos:text_color="$ohos:color:id_color_bottom_tab_icon_auxcolor01_dark"
+        ohos:bottom_padding="20fp"
+        ohos:element_left="$media:user"
+        ohos:element_padding="20fp"
+        ohos:basement="#FFF7F7FA"
+        />
+    <Text
+        ohos:id="$+id:text_dob"
+        ohos:bubble_width="20"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text=" Date  Month    Year"
+        ohos:text_color="$ohos:color:id_color_bottom_tab_icon_auxcolor01_dark"
+        ohos:text_size="25vp"
+        ohos:top_margin="10fp"
+        ohos:element_left="$media:DOB"
+        />
+
+    <DatePicker
+        ohos:height="match_content"
+        ohos:width="250vp"
+        ohos:id="$+id:date_picker"
+        ohos:date_order="day-month-year"
+        ohos:normal_text_color="$ohos:color:id_color_bottom_tab_icon_auxcolor01_dark"
+        ohos:normal_text_size="18fp"
+        ohos:layout_alignment="center"
+        ohos:left_margin="35fp"
+        ohos:selected_text_color="#FF0E0E0E"
+        ohos:selected_text_size="20fp"
+
+        />
+
+
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:id="$+id:Gender"
+        ohos:layout_alignment="center"
+        ohos:hint="Enter Gender"
+        ohos:text_size="30fp"
+        ohos:text_color="$ohos:color:id_color_bottom_tab_icon_auxcolor01_dark"
+        ohos:bottom_padding="20fp"
+        ohos:element_left="$media:gender"
+        ohos:element_padding="20fp"
+        ohos:basement="#FFF7F7FA"
+        />
+
+
+    <Button
+        ohos:id="$+id:button"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text_size="35fp"
+        ohos:text="Login"
+        ohos:background_element="$graphic:capsule_button_element"
+        ohos:left_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+        ohos:layout_alignment="center"
+        ohos:text_color="#FFFFFF"
+
+        />
+
+</DirectionalLayout>
+
+</ScrollView>
