@@ -1,0 +1,235 @@
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+
+    >
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    >
+    <Image
+        ohos:id="$+id:nameimg"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:image_src="$media:name"
+        ohos:top_padding="15fp"
+        ohos:left_padding="0fp"
+        ohos:scale_x="0.6"
+        ohos:scale_y="0.6"
+        />
+
+    <TextField
+        ohos:id="$+id:name"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:left_margin="10vp"
+        ohos:top_margin="25fp"
+        ohos:bottom_margin="30vp"
+        ohos:left_padding="90fp"
+        ohos:right_padding="90fp"
+        ohos:top_padding="5fp"
+        ohos:hint="Name"
+        ohos:text_size="30fp"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:basement="#FF0A0A0A"
+        ohos:end_of="$id:nameimg"
+        />
+
+    <Image
+        ohos:id="$+id:phoneimg"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:image_src="$media:phone"
+        ohos:top_padding="25fp"
+        ohos:left_padding="10fp"
+        ohos:scale_x="0.6"
+        ohos:scale_y="0.6"
+        ohos:below="$id:nameimg"
+        />
+
+    <TextField
+        ohos:id="$+id:phone"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:left_margin="0fp"
+        ohos:top_margin="10fp"
+        ohos:bottom_margin="30vp"
+        ohos:left_padding="30fp"
+        ohos:right_padding="30fp"
+        ohos:top_padding="5fp"
+        ohos:hint="Phone"
+        ohos:text_size="30fp"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:basement="#FF0A0A0A"
+        ohos:below="$id:name"
+        ohos:end_of="$id:phoneimg"
+        />
+    <TextField
+        ohos:id="$+id:area"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:left_margin="10vp"
+        ohos:top_margin="10fp"
+        ohos:bottom_margin="30vp"
+        ohos:left_padding="20fp"
+        ohos:right_padding="20fp"
+        ohos:top_padding="5fp"
+        ohos:hint="Area"
+        ohos:text_size="30fp"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:basement="#FF0A0A0A"
+        ohos:below="$id:name"
+        ohos:end_of="$id:phone"
+        />
+
+    <Image
+        ohos:id="$+id:addressimg"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:image_src="$media:location"
+        ohos:top_padding="5fp"
+        ohos:left_padding="10fp"
+        ohos:scale_x="0.6"
+        ohos:scale_y="0.6"
+        ohos:below="$id:phone"
+        />
+
+    <TextField
+        ohos:id="$+id:address"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:left_margin="75fp"
+        ohos:top_margin="10fp"
+        ohos:bottom_margin="30vp"
+        ohos:left_padding="80fp"
+        ohos:right_padding="70fp"
+        ohos:top_padding="5fp"
+        ohos:hint="Address"
+        ohos:text_size="30fp"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:basement="#FF0A0A0A"
+        ohos:below="$id:phone"
+        ohos:end_of="$media:location"
+        />
+
+    <TextField
+        ohos:id="$+id:city"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:left_margin="75fp"
+        ohos:top_margin="20fp"
+        ohos:bottom_margin="30vp"
+        ohos:left_padding="90fp"
+        ohos:right_padding="120fp"
+        ohos:top_padding="5fp"
+        ohos:hint="City"
+        ohos:text_size="30fp"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:basement="#FF0A0A0A"
+        ohos:below="$id:address"
+
+        />
+
+    <TextField
+        ohos:id="$+id:state"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:left_margin="75fp"
+        ohos:top_margin="10fp"
+        ohos:bottom_margin="30vp"
+        ohos:left_padding="30fp"
+        ohos:right_padding="30fp"
+        ohos:top_padding="5fp"
+        ohos:hint="State"
+        ohos:text_size="30fp"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:basement="#FF0A0A0A"
+        ohos:below="$id:city"
+
+        />
+    <TextField
+        ohos:id="$+id:zip"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:left_margin="10vp"
+        ohos:top_margin="10fp"
+        ohos:bottom_margin="30vp"
+        ohos:left_padding="20fp"
+        ohos:right_padding="60fp"
+        ohos:top_padding="5fp"
+        ohos:hint="Zip"
+        ohos:text_size="30fp"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:basement="#FF0A0A0A"
+        ohos:below="$id:city"
+        ohos:end_of="$id:state"
+        />
+
+    <Image
+        ohos:id="$+id:emailpic"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:image_src="$media:email"
+        ohos:top_padding="5fp"
+        ohos:left_padding="0fp"
+        ohos:scale_x="0.6"
+        ohos:scale_y="0.6"
+        ohos:below="$id:state"
+        />
+
+
+    <TextField
+        ohos:id="$+id:email"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:left_margin="10fp"
+        ohos:top_margin="10fp"
+        ohos:bottom_margin="30vp"
+        ohos:left_padding="100fp"
+        ohos:right_padding="80fp"
+        ohos:top_padding="5fp"
+        ohos:hint="Email"
+        ohos:text_size="30fp"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:basement="#FF0A0A0A"
+        ohos:below="$id:state"
+        ohos:end_of="$id:emailpic"
+        />
+
+    <Image
+        ohos:id="$+id:birthday"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:image_src="$media:birth"
+        ohos:top_padding="5fp"
+        ohos:left_padding="5fp"
+        ohos:scale_x="0.6"
+        ohos:scale_y="0.6"
+        ohos:below="$id:emailpic"
+
+        />
+
+    <DatePicker
+
+
+
+        ohos:id="$+id:date_pick"
+        ohos:height="match_content"
+        ohos:width="300vp"
+
+        ohos:wheel_mode_enabled="true"
+        ohos:text_size="15fp"
+        ohos:left_margin="70fp"
+        ohos:bottom_margin="30fp"
+        ohos:date_order="day-month-year"
+        ohos:normal_text_color="#a6a6a6"
+        ohos:below="$id:email"
+        ohos:end_of="$media:birth"
+        >
+    </DatePicker>
+
+</DependentLayout>
+
+</ScrollView>

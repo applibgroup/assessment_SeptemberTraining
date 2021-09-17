@@ -1,0 +1,400 @@
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+>
+
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:background_element="$media:personal_bg"
+    ohos:orientation="vertical">
+
+
+<Text
+        ohos:id="$+id:personal"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Personal"
+        ohos:top_margin="20fp"
+        ohos:left_margin="10fp"
+        ohos:text_size="25fp"
+
+        ohos:text_font="sans-serif-condensed-medium"
+    />
+
+    <Text
+        ohos:id="$+id:nametext"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Name"
+        ohos:top_margin="20fp"
+        ohos:left_margin="10fp"
+        ohos:text_size="20fp"
+        ohos:below="$id:personal"
+
+        />
+
+    <TextField
+
+        ohos:id="$+id:text_field"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="10fp"
+        ohos:left_margin="10fp"
+        ohos:left_padding="50fp"
+        ohos:hint="Enter Your Name"
+        ohos:hint_color="#fffdd0"
+        ohos:text_size="20fp"
+
+        ohos:below="$id:nametext"
+        ohos:right_padding="130fp"
+        ohos:background_element="#777663"
+    />
+
+    <Text
+        ohos:id="$+id:date"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="DateofBirth"
+        ohos:top_margin="20fp"
+        ohos:left_margin="10fp"
+        ohos:text_size="20fp"
+        ohos:below="$id:text_field"
+
+        />
+
+    <DatePicker
+        ohos:id="$+id:date_field"
+        ohos:height="match_content"
+        ohos:width="300vp"
+        ohos:below="$id:date"
+        ohos:wheel_mode_enabled="true"
+        ohos:top_margin="10fp"
+        ohos:left_margin="40fp"
+        ohos:text_size="17fp"
+        ohos:bottom_margin="30fp"
+        ohos:date_order="day-month-year"
+        ohos:normal_text_color="#a2a185"
+
+        >
+    </DatePicker>
+
+    <Text
+        ohos:id="$+id:que"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="What is your spirit animal?"
+        ohos:top_margin="0fp"
+        ohos:left_margin="10fp"
+        ohos:text_size="20fp"
+        ohos:below="$id:date_field"
+
+        />
+
+    <TextField
+
+        ohos:id="$+id:que_field1"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="10fp"
+        ohos:left_margin="10fp"
+        ohos:left_padding="20fp"
+        ohos:hint="Lion"
+        ohos:text_size="20fp"
+
+        ohos:below="$id:que"
+        ohos:right_padding="20fp"
+        ohos:hint_color="#fffdd0"
+        ohos:background_element="#777663"
+        />
+
+    <TextField
+
+        ohos:id="$+id:que_field2"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="10fp"
+        ohos:left_margin="2fp"
+        ohos:left_padding="20fp"
+        ohos:hint="Tiger"
+        ohos:text_size="20fp"
+
+        ohos:below="$id:que"
+        ohos:end_of="$id:que_field1"
+        ohos:right_padding="20fp"
+        ohos:hint_color="#fffdd0"
+        ohos:background_element="#777663"
+        />
+
+    <TextField
+
+        ohos:id="$+id:que_field3"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="10fp"
+        ohos:left_margin="2fp"
+        ohos:left_padding="20fp"
+        ohos:hint="Bear"
+        ohos:text_size="20fp"
+
+        ohos:below="$id:que"
+        ohos:end_of="$id:que_field2"
+        ohos:right_padding="20fp"
+        ohos:hint_color="#fffdd0"
+        ohos:background_element="#777663"
+        />
+
+    <TextField
+
+        ohos:id="$+id:que_field4"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="10fp"
+        ohos:left_margin="2fp"
+        ohos:left_padding="20fp"
+        ohos:hint="Bull"
+        ohos:text_size="20fp"
+
+        ohos:below="$id:que"
+        ohos:end_of="$id:que_field3"
+        ohos:right_padding="25fp"
+        ohos:hint_color="#fffdd0"
+        ohos:background_element="#777663"
+        />
+
+
+    <Text
+        ohos:id="$+id:Account_text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Account"
+        ohos:top_margin="20fp"
+        ohos:left_margin="10fp"
+        ohos:text_size="25fp"
+
+        ohos:text_font="sans-serif-condensed-medium"
+        ohos:below="$id:que_field1"
+        />
+
+    <Text
+        ohos:id="$+id:Email_text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Email"
+        ohos:top_margin="20fp"
+        ohos:left_margin="10fp"
+        ohos:text_size="20fp"
+        ohos:below="$id:Account_text"
+
+        />
+
+    <TextField
+
+        ohos:id="$+id:Email_field"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="10fp"
+        ohos:left_margin="10fp"
+        ohos:left_padding="50fp"
+        ohos:hint="abcd@xyz.com"
+        ohos:text_size="20fp"
+
+        ohos:below="$id:Email_text"
+        ohos:right_padding="150fp"
+        ohos:hint_color="#fffdd0"
+        ohos:background_element="#777663"
+        />
+
+    <Text
+        ohos:id="$+id:password_text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Password"
+        ohos:top_margin="20fp"
+        ohos:left_margin="10fp"
+        ohos:text_size="20fp"
+        ohos:below="$id:Email_field"
+
+        />
+
+    <TextField
+
+        ohos:id="$+id:password_field"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="10fp"
+        ohos:left_margin="10fp"
+        ohos:left_padding="40fp"
+        ohos:hint="Enter your password"
+        ohos:text_size="20fp"
+        ohos:text_input_type="pattern_password"
+        ohos:below="$id:password_text"
+        ohos:right_padding="110fp"
+        ohos:hint_color="#fffdd0"
+        ohos:background_element="#777663"
+        />
+
+    <Text
+        ohos:id="$+id:verify_text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Verify Password"
+        ohos:top_margin="20fp"
+        ohos:left_margin="10fp"
+        ohos:text_size="20fp"
+        ohos:below="$id:password_field"
+
+        />
+
+    <TextField
+
+        ohos:id="$+id:verify_field"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="10fp"
+        ohos:left_margin="10fp"
+        ohos:left_padding="40fp"
+        ohos:hint="Verify your password"
+        ohos:text_size="20fp"
+        ohos:text_input_type="pattern_password"
+        ohos:below="$id:verify_text"
+        ohos:right_padding="110fp"
+        ohos:hint_color="#fffdd0"
+        ohos:background_element="#777663"
+        />
+
+    <Text
+        ohos:id="$+id:Contact_text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Contact"
+        ohos:top_margin="20fp"
+        ohos:left_margin="10fp"
+        ohos:text_size="25fp"
+
+        ohos:text_font="sans-serif-condensed-medium"
+        ohos:below="$id:verify_field"
+        />
+
+    <Text
+        ohos:id="$+id:address_text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Address"
+        ohos:top_margin="20fp"
+        ohos:left_margin="10fp"
+        ohos:text_size="20fp"
+        ohos:below="$id:Contact_text"
+
+        />
+
+    <TextField
+
+        ohos:id="$+id:address_field"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="10fp"
+        ohos:left_margin="10fp"
+        ohos:left_padding="40fp"
+        ohos:hint="#91,40th cross st."
+        ohos:text_size="20fp"
+
+        ohos:below="$id:address_text"
+        ohos:right_padding="140fp"
+        ohos:hint_color="#fffdd0"
+        ohos:background_element="#777663"
+        />
+
+    <Text
+        ohos:id="$+id:city_text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="City"
+        ohos:top_margin="20fp"
+        ohos:left_margin="10fp"
+        ohos:text_size="20fp"
+        ohos:below="$id:address_field"
+
+        />
+
+    <TextField
+
+        ohos:id="$+id:city_field"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="10fp"
+        ohos:left_margin="10fp"
+        ohos:left_padding="60fp"
+        ohos:hint="Banglore"
+        ohos:text_size="20fp"
+
+        ohos:below="$id:city_text"
+        ohos:right_padding="195fp"
+        ohos:hint_color="#fffdd0"
+        ohos:background_element="#777663"
+        />
+
+    <Text
+        ohos:id="$+id:state_text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="State"
+        ohos:top_margin="20fp"
+        ohos:left_margin="10fp"
+        ohos:text_size="20fp"
+        ohos:below="$id:city_field"
+
+        />
+
+    <TextField
+
+        ohos:id="$+id:state_field"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="10fp"
+        ohos:left_margin="10fp"
+        ohos:left_padding="40fp"
+        ohos:hint="enter your state"
+        ohos:text_size="20fp"
+
+        ohos:below="$id:state_text"
+        ohos:right_padding="155fp"
+        ohos:hint_color="#fffdd0"
+        ohos:background_element="#777663"
+        />
+
+    <Text
+        ohos:id="$+id:phone_text"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Phone"
+        ohos:top_margin="20fp"
+        ohos:left_margin="10fp"
+        ohos:text_size="20fp"
+        ohos:below="$id:state_field"
+
+        />
+
+    <TextField
+
+        ohos:id="$+id:phone_field"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="10fp"
+        ohos:left_margin="10fp"
+        ohos:left_padding="40fp"
+        ohos:hint="enter your phone number"
+        ohos:text_size="20fp"
+        ohos:bottom_margin="20fp"
+        ohos:text_input_type="pattern_number"
+        ohos:below="$id:phone_text"
+        ohos:right_padding="60fp"
+        ohos:hint_color="#fffdd0"
+        ohos:background_element="#777663"
+        />
+
+</DependentLayout>
+
+    </ScrollView>
