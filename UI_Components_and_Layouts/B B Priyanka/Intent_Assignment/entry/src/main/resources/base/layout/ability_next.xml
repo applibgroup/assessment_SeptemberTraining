@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:scrollview"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:top_margin="32vp"
+    ohos:bottom_padding="16vp"
+    ohos:layout_alignment="horizontal_center">
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_IdCard"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="Student Id Card"
+        ohos:top_margin="30fp"
+        ohos:text_size="40vp"
+        />
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:id="$+id:stack_layout"
+        ohos:height="340fp"
+        ohos:left_margin="15fp"
+        ohos:left_padding="15fp"
+        ohos:top_margin="100fp"
+        ohos:layout_alignment="center"
+        ohos:background_element="$graphic:background_idcard"
+        ohos:width="500fp">
+
+        <Text
+            ohos:id="$+id:user_info_roll"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Roll"
+            ohos:top_margin="10fp"
+            ohos:layout_alignment="horizontal_center"
+            ohos:left_margin="10fp"
+            ohos:text_size="40fp"
+            ohos:text_color="#FF0C0C0C"
+            />
+
+        <Text
+            ohos:id="$+id:text_name"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Name"
+            ohos:top_margin="10fp"
+            ohos:left_margin="10fp"
+            ohos:text_size="25fp"
+            ohos:text_color="#FF0A1FDD"
+            />
+        <Text
+            ohos:id="$+id:user_info_name"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Name"
+            ohos:top_margin="10fp"
+            ohos:left_margin="10fp"
+            ohos:text_size="25fp"
+            ohos:text_color="#FFF2F3F6"
+            />
+
+        <Text
+            ohos:id="$+id:text_Department"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Department"
+            ohos:top_margin="10fp"
+            ohos:left_margin="10fp"
+            ohos:text_size="25fp"
+            ohos:text_color="#FF0A1FDD"
+            />
+        <Text
+            ohos:id="$+id:user_info_Department"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Department"
+            ohos:top_margin="10fp"
+            ohos:left_margin="10fp"
+            ohos:text_size="25fp"
+            ohos:text_color="#FFF5F5F8"
+            />
+        <Text
+            ohos:id="$+id:text_university"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="University"
+            ohos:top_margin="10fp"
+            ohos:left_margin="10fp"
+            ohos:text_size="25fp"
+            ohos:text_color="#FF0A1FDD"
+            />
+        <Text
+            ohos:id="$+id:user_info_university"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="University"
+            ohos:top_margin="10fp"
+            ohos:left_margin="10fp"
+            ohos:text_size="25fp"
+            ohos:text_color="#FFF1F1F3"
+            />
+    </DirectionalLayout>
+
+</DirectionalLayout>
+</ScrollView>
