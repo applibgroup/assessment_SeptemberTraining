@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:button"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text_size="30fp"
+        ohos:text="Name"
+        ohos:hint_color="$ohos:color:id_color_activated_end_transparent"
+        ohos:left_margin="1vp"
+        ohos:bottom_margin="100vp"
+        ohos:right_padding="2vp"
+        ohos:left_padding="2vp"
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="30fp"
+        ohos:text="Phone     Area"
+        ohos:hint_color="$ohos:color:id_color_text_secondary"
+        ohos:bottom_margin="90vp"
+        ohos:right_margin="2vp"
+        ohos:right_padding="2vp"
+        ohos:left_padding="1vp"
+        ohos:left_margin="1vp"
+        />
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="30fp"
+        ohos:text="Address"
+        ohos:bottom_margin="80vp"
+        ohos:right_margin="2vp"
+        ohos:right_padding="2vp"
+        ohos:left_padding="1vp"
+        ohos:left_margin="1vp"
+
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="30fp"
+        ohos:text="City"
+        ohos:bottom_margin="70vp"
+        ohos:right_margin="2vp"
+        ohos:right_padding="2vp"
+        ohos:left_padding="1vp"
+        ohos:left_margin="1vp"
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="30fp"
+        ohos:text="State       Zip"
+        ohos:bottom_margin="60vp"
+        ohos:right_margin="2vp"
+        ohos:right_padding="2vp"
+        ohos:left_padding="1vp"
+        ohos:left_margin="1vp"
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="30fp"
+        ohos:text="Email"
+        ohos:bottom_margin="50vp"
+        ohos:right_margin="2vp"
+        ohos:right_padding="2vp"
+        ohos:left_padding="1vp"
+        ohos:left_margin="1vp"
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="30fp"
+        ohos:text="Birthday"
+        ohos:bottom_margin="40vp"
+        ohos:right_margin="2vp"
+        ohos:right_padding="2vp"
+        ohos:left_padding="1vp"
+        ohos:left_margin="1vp"
+        />
+
+</DirectionalLayout>
