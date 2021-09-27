@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="5vp"
+        ohos:left_padding="15vp"
+        ohos:text="Email  "
+        ohos:bottom_margin="14vp"
+        ohos:text_size="25fp"
+        ohos:text_alignment="vertical_center"
+        ohos:background_element="#9706D8F3"
+        ohos:text_color="#C80E042F"
+        />
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="5vp"
+        ohos:left_padding="15vp"
+        ohos:text="Password  "
+        ohos:bottom_margin="14vp"
+        ohos:text_size="25fp"
+        ohos:text_alignment="vertical_center"
+        ohos:background_element="#9706D8F3"
+        ohos:text_color="#C80E042F"
+        />
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="5vp"
+        ohos:left_padding="15vp"
+        ohos:text="Username "
+        ohos:bottom_margin="14vp"
+        ohos:text_size="25fp"
+        ohos:text_alignment="vertical_center"
+        ohos:background_element="#9706D8F3"
+        ohos:text_color="#C80E042F"
+        />
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="5vp"
+        ohos:left_padding="15vp"
+        ohos:text="Date "
+        ohos:bottom_margin="14vp"
+        ohos:text_size="25fp"
+        ohos:text_alignment="vertical_center"
+        ohos:background_element="#9706D8F3"
+        ohos:text_color="#C80E042F"
+        />
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="5vp"
+        ohos:left_padding="15vp"
+        ohos:text="Gender  "
+        ohos:bottom_margin="14vp"
+        ohos:text_size="25fp"
+        ohos:text_alignment="vertical_center"
+        ohos:background_element="#9706D8F3"
+        ohos:text_color="#C80E042F"
+        />
+    <Button
+        ohos:id="$+id:button"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text_size="27fp"
+        ohos:text="Sign up"
+        ohos:text_alignment="right"
+        ohos:left_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:right_padding="8vp"
+        ohos:left_padding="8vp"
+        ohos:background_element="#C80E042F"
+        ohos:text_color="#FFFFFEFC"
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="OR"
+        ohos:text_alignment="center"
+        ohos:left_margin="15vp"
+        ohos:text_size="20fp"
+        ohos:bottom_margin="15vp"
+        ohos:right_padding="8vp"
+        ohos:left_padding="8vp"
+        ohos:background_element="#C80E042F"
+        ohos:text_color="#FFFFFEFC"
+
+        />
+    <Button
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text_size="27fp"
+        ohos:text="Sign up with FaceBook"
+        ohos:text_alignment="right"
+        ohos:left_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:right_padding="8vp"
+        ohos:left_padding="8vp"
+        ohos:background_element="#C80E042F"
+        ohos:text_color="#FFFFFEFC"
+        />
+
+</DirectionalLayout>
