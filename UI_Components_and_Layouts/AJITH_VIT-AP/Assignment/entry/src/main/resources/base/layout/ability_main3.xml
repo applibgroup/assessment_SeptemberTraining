@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+ohos:background_element="$graphic:backgroundtint"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_helloworld"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="left"
+        ohos:text="Personal"
+        ohos:text_size="20vp"
+        ohos:top_padding="10vp"
+        ohos:left_padding="10vp"
+        ohos:bottom_margin="3vp"
+
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="------------------------------------------------------------------------------------------"
+        ohos:left_padding="10vp"
+        ohos:right_padding="10vp"
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Name"
+        ohos:left_padding="10vp"
+        ohos:text_size="20vp"
+        />
+    <TextField
+
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="10vp"
+        ohos:right_margin="10vp"
+        ohos:left_padding="10vp"
+        ohos:hint="John Doe"
+        ohos:text_size="15vp"
+        ohos:padding="5vp"
+        ohos:background_element="$graphic:background_ability_main3"
+        ohos:bottom_margin="3vp"
+        />
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Date of Birth"
+        ohos:left_padding="10vp"
+        ohos:text_size="20vp"
+        ohos:bottom_margin="3vp"
+        />
+    <TableLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:row_count="1"
+        ohos:column_count="3">
+
+        <TextField
+
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:hint="Month"
+
+            ohos:padding="5vp"
+            ohos:left_margin="10vp"
+            ohos:text_size="20vp"
+            ohos:right_padding="30vp"
+            ohos:background_element="$graphic:background_ability_main3"/>
+
+        <TextField
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:hint="Day"
+            ohos:padding="5vp"
+            ohos:left_margin="10vp"
+            ohos:right_padding="30vp"
+            ohos:text_size="20vp"
+            ohos:background_element="$graphic:background_ability_main3"/>
+
+        <TextField
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:hint="Year"
+            ohos:padding="5vp"
+            ohos:text_size="20vp"
+            ohos:left_margin="10vp"
+            ohos:right_padding="30vp"
+            ohos:background_element="$graphic:background_ability_main3"/>
+
+    </TableLayout>
+
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="What is your spirit animal ?"
+        ohos:padding="10vp"
+        ohos:text_size="20vp"
+        />
+
+    <TableLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:row_count="1"
+        ohos:column_count="5"
+        ohos:left_margin="10vp"
+        ohos:bottom_margin="3vp">
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:hint="Lion"
+            ohos:background_element="$graphic:background_ability_main3"
+            ohos:padding="10vp"
+            ohos:text_size="20vp"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:hint="Tiger"
+            ohos:left_margin="4vp"
+            ohos:padding="10vp"
+            ohos:background_element="$graphic:background_ability_main3"
+            ohos:text_size="20vp"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:hint="Bear"
+            ohos:left_margin="4vp"
+            ohos:background_element="$graphic:background_ability_main3"
+            ohos:padding="10vp"
+            ohos:text_size="20vp"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:hint="Bull"
+            ohos:left_margin="4vp"
+            ohos:padding="10vp"
+            ohos:background_element="$graphic:background_ability_main3"
+            ohos:text_size="20vp"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:hint="Serval"
+            ohos:left_margin="4vp"
+            ohos:background_element="$graphic:background_ability_main3"
+            ohos:padding="10vp"
+            ohos:text_size="20vp"/>
+
+    </TableLayout>
+
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Account"
+        ohos:text_size="20vp"
+        ohos:left_padding="10vp"/>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="------------------------------------------------------------------------------------------"
+        ohos:left_padding="10vp"
+        ohos:right_padding="10vp"
+        />
+    <!--Email-->
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Email"
+        ohos:text_size="20vp"
+        ohos:left_padding="10vp"/>
+    <TextField
+
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="10vp"
+        ohos:right_margin="10vp"
+        ohos:hint="john@johndoe.com"
+        ohos:left_padding="10vp"
+        ohos:text_size="15vp"
+        ohos:padding="5vp"
+        ohos:background_element="$graphic:background_ability_main3"
+        ohos:bottom_margin="5vp"
+        />
+
+    <!--Password-->
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Password"
+        ohos:text_size="20vp"
+        ohos:left_padding="10vp"/>
+    <TextField
+
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="10vp"
+        ohos:right_margin="10vp"
+        ohos:left_padding="5vp"
+        ohos:text_size="15vp"
+        ohos:padding="5vp"
+        ohos:background_element="$graphic:background_ability_main3"
+        ohos:bottom_margin="5vp"
+        />
+
+    <!--Verify password-->
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Verify Password"
+        ohos:text_size="20vp"
+        ohos:left_padding="10vp"/>
+    <TextField
+
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="10vp"
+        ohos:right_margin="10vp"
+        ohos:left_padding="5vp"
+        ohos:text_size="15vp"
+        ohos:padding="5vp"
+        ohos:background_element="$graphic:background_ability_main3"
+        ohos:bottom_margin="5vp"
+        />
+
+<!-- Contact      -->
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Contact"
+        ohos:text_size="20vp"
+        ohos:left_padding="10vp"/>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="------------------------------------------------------------------------------------------"
+        ohos:left_padding="10vp"
+        ohos:right_padding="10vp"
+        />
+    <!--Address-->
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Address"
+        ohos:text_size="20vp"
+        ohos:left_padding="10vp"/>
+    <TextField
+
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="10vp"
+        ohos:right_margin="10vp"
+        ohos:hint="938 Jackson St."
+        ohos:left_padding="10vp"
+        ohos:text_size="15vp"
+        ohos:padding="5vp"
+        ohos:background_element="$graphic:background_ability_main3"
+        ohos:bottom_margin="5vp"
+        />
+
+    <!--City-->
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="City"
+        ohos:text_size="20vp"
+        ohos:left_padding="10vp"/>
+    <TextField
+
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="10vp"
+        ohos:hint="938 Jackson St."
+        ohos:right_margin="10vp"
+        ohos:left_padding="10vp"
+        ohos:text_size="15vp"
+        ohos:padding="5vp"
+        ohos:background_element="$graphic:background_ability_main3"
+        ohos:bottom_margin="5vp"
+        />
+
+    <!--  State -->
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="State"
+        ohos:text_size="20vp"
+        ohos:left_padding="10vp"/>
+    <TextField
+
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="10vp"
+        ohos:right_margin="10vp"
+        ohos:left_padding="10vp"
+        ohos:text_size="15vp"
+        ohos:padding="5vp"
+        ohos:background_element="$graphic:background_ability_main3"
+        ohos:bottom_margin="5vp"
+        ohos:text="-Select your State -"
+        />
+    <!--Phone-->
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Phone"
+        ohos:text_size="20vp"
+        ohos:left_padding="10vp"/>
+    <TextField
+
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="10vp"
+        ohos:right_margin="10vp"
+        ohos:left_padding="10vp"
+        ohos:text_size="15vp"
+        ohos:padding="5vp"
+        ohos:background_element="$graphic:background_ability_main3"
+        ohos:bottom_margin="5vp"
+        ohos:hint="8373833678"
+        />
+
+
+</DirectionalLayout>
