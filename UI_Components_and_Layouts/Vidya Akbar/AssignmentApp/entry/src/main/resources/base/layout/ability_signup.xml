@@ -1,0 +1,146 @@
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+
+    >
+
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+
+    ohos:background_element="$media:bkg"
+    ohos:orientation="vertical">
+
+
+    <Text
+        ohos:id="$+id:SignUp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text_color="$ohos:color:id_color_bottom_tab_icon_auxcolor01_dark"
+        ohos:text="SIGNUP"
+        ohos:text_size="50fp"
+        ohos:bottom_margin="50fp"
+        ohos:top_margin="20fp"
+        />
+
+    <TextField
+        ohos:id="$+id:Email"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:hint="Enter Email"
+        ohos:left_padding="10fp"
+        ohos:right_padding="70fp"
+        ohos:text_size="30fp"
+        ohos:element_left="$media:email"
+        ohos:bottom_margin="20fp"
+        ohos:basement="#FF070707"
+
+        />
+
+    <TextField
+        ohos:id="$+id:password"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:hint="Enter Password"
+        ohos:text_size="30fp"
+        ohos:element_left="$media:pass"
+        ohos:bottom_margin="20fp"
+        ohos:basement="#FF070707"
+
+
+        />
+    <TextField
+        ohos:id="$+id:Username"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:hint="Enter UserName"
+        ohos:text_size="30fp"
+        ohos:element_left="$media:name"
+        ohos:bottom_margin="20fp"
+        ohos:basement="#FF070707"
+
+        />
+
+    <TextField
+        ohos:id="$+id:DOB"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:hint="Date Month Year"
+        ohos:text_size="30fp"
+        ohos:left_padding="10fp"
+        ohos:right_padding="50fp"
+        ohos:element_left="$media:DOB"
+        ohos:bottom_margin="5fp"
+
+
+        />
+
+    <DatePicker
+        ohos:id="$+id:date_pick"
+        ohos:height="match_content"
+        ohos:width="250vp"
+        ohos:top_margin="5fp"
+        ohos:wheel_mode_enabled="true"
+        ohos:text_size="15fp"
+        ohos:bottom_margin="30fp"
+        ohos:date_order="day-month-year"
+        ohos:normal_text_color="$ohos:color:id_color_badge_red_transparent"
+        ohos:layout_alignment="horizontal_center"
+        >
+    </DatePicker>
+
+    <TextField
+        ohos:id="$+id:Gender"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:hint="Enter Gender"
+        ohos:left_padding="10fp"
+        ohos:right_padding="70fp"
+        ohos:text_size="30fp"
+        ohos:element_left="$media:gender"
+        ohos:bottom_margin="40fp"
+        ohos:basement="#FF070707"
+
+        />
+
+
+    <Button
+        ohos:id="$+id:button"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text_size="27fp"
+        ohos:layout_alignment="center"
+        ohos:text="Login"
+        ohos:text_color="$ohos:color:id_color_bottom_tab_icon_auxcolor01_dark"
+        ohos:background_element="$graphic:capsule_button_element"
+        ohos:left_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+        />
+
+    <DatePicker
+        ohos:id="$+id:date_pick1"
+        ohos:height="500vp"
+        ohos:width="200vp"
+
+        ohos:wheel_mode_enabled="true"
+        ohos:text_size="15fp"
+        ohos:bottom_margin="30fp"
+        ohos:date_order="day-month-year"
+        ohos:normal_text_color="$ohos:color:id_color_badge_red_transparent"
+        ohos:layout_alignment="horizontal_center"
+        >
+    </DatePicker>
+
+</DirectionalLayout>
+
+</ScrollView>

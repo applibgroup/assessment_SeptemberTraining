@@ -1,0 +1,45 @@
+<!--<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_helloworld"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="$string:mainability_HelloWorld"
+        ohos:text_size="40vp"
+        />
+
+</DirectionalLayout>-->
+
+
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+
+
+    ohos:id="$+id:scrollview"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#FFDEAD"
+    ohos:top_margin="32vp"
+    ohos:bottom_padding="16vp"
+    ohos:layout_alignment="horizontal_center">
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content">
+        <!-- $media:plant: image resource referenced in the media directory-->
+        <Image
+            ohos:width="300vp"
+            ohos:height="match_content"
+            ohos:top_margin="16vp"
+            ohos:image_src="$media:location"/>
+        <!-- Add content to be displayed -->
+        ...
+    </DirectionalLayout>
+</ScrollView>
