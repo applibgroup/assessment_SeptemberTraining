@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:alignment="horizontal_center">
+<ScrollView
+    ohos:height="match_parent"
+    ohos:width="match_content">
+    <Image
+        ohos:height="50vp"
+        ohos:width="50vp"
+        ohos:scale_mode="clip_center"
+        ohos:top_margin="90vp"
+        ohos:right_margin="20vp"
+        ohos:left_margin="10vp"
+        ohos:image_src="$media:contact_icon"
+        />
+
+    <TextField
+        ohos:height="50vp"
+        ohos:width="250vp"
+        ohos:hint="Name"
+        ohos:text_size="70px"
+        ohos:hint_color="#CC000000"
+        ohos:top_margin="90vp"
+        ohos:left_margin="80vp"
+        ohos:background_element="$graphic:txt_curve1"
+        ohos:top_padding="30px"
+        ohos:left_padding="50px"
+        />
+
+
+
+    <Image
+        ohos:height="50vp"
+        ohos:width="50vp"
+        ohos:scale_mode="clip_center"
+        ohos:top_margin="160vp"
+        ohos:right_margin="20vp"
+        ohos:left_margin="10vp"
+        ohos:image_src="$media:phone_icon"
+        />
+
+    <TextField
+        ohos:height="50vp"
+        ohos:width="120vp"
+        ohos:hint="Phone"
+        ohos:text_size="70px"
+        ohos:text_input_type="pattern_number"
+        ohos:hint_color="#CC000000"
+        ohos:top_margin="160vp"
+        ohos:left_margin="80vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:txt_curve1"
+        ohos:top_padding="30px"
+        ohos:left_padding="50px"
+        />
+
+    <TextField
+        ohos:height="50vp"
+        ohos:width="100vp"
+        ohos:hint="Area"
+        ohos:text_size="70px"
+        ohos:hint_color="#CC000000"
+        ohos:top_margin="160vp"
+        ohos:left_margin="230vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:txt_curve1"
+        ohos:top_padding="30px"
+        ohos:left_padding="50px"
+        />
+
+
+    <Image
+        ohos:height="50vp"
+        ohos:width="50vp"
+        ohos:scale_mode="clip_center"
+        ohos:top_margin="230vp"
+        ohos:right_margin="20vp"
+        ohos:left_margin="10vp"
+        ohos:image_src="$media:adress_icon"
+        />
+
+    <TextField
+        ohos:height="50vp"
+        ohos:width="250vp"
+        ohos:hint="Address"
+        ohos:text_size="70px"
+        ohos:hint_color="#CC000000"
+        ohos:top_margin="230vp"
+        ohos:left_margin="80vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:txt_curve1"
+        ohos:top_padding="30px"
+        ohos:left_padding="50px"
+        />
+
+    <TextField
+        ohos:height="50vp"
+        ohos:width="250vp"
+        ohos:hint="City"
+        ohos:text_size="70px"
+        ohos:hint_color="#CC000000"
+        ohos:top_margin="300vp"
+        ohos:left_margin="80vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:txt_curve1"
+        ohos:top_padding="30px"
+        ohos:left_padding="50px"
+        />
+
+    <TextField
+        ohos:height="50vp"
+        ohos:width="120vp"
+        ohos:hint="State"
+        ohos:text_size="70px"
+        ohos:hint_color="#CC000000"
+        ohos:top_margin="370vp"
+        ohos:left_margin="80vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:txt_curve1"
+        ohos:top_padding="30px"
+        ohos:left_padding="50px"
+        />
+    <TextField
+        ohos:height="50vp"
+        ohos:width="100vp"
+        ohos:hint="Zip"
+        ohos:text_size="70px"
+        ohos:hint_color="#CC000000"
+        ohos:top_margin="370vp"
+        ohos:left_margin="230vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:txt_curve1"
+        ohos:top_padding="30px"
+        ohos:left_padding="50px"
+        />
+
+    <Image
+        ohos:height="50vp"
+        ohos:width="50vp"
+        ohos:scale_mode="clip_center"
+        ohos:top_margin="440vp"
+        ohos:right_margin="20vp"
+        ohos:left_margin="10vp"
+        ohos:image_src="$media:email_icon"
+        />
+
+    <TextField
+        ohos:height="50vp"
+        ohos:width="250vp"
+        ohos:hint="Email"
+        ohos:text_size="70px"
+        ohos:hint_color="#CC000000"
+        ohos:top_margin="445vp"
+        ohos:left_margin="80vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:txt_curve1"
+        ohos:top_padding="30px"
+        ohos:left_padding="50px"
+        />
+
+    <Image
+        ohos:height="50vp"
+        ohos:width="50vp"
+        ohos:scale_mode="clip_center"
+        ohos:top_margin="510vp"
+        ohos:right_margin="20vp"
+        ohos:left_margin="10vp"
+        ohos:image_src="$media:birthday_icon"
+        />
+
+    <TextField
+        ohos:height="50vp"
+        ohos:width="250vp"
+        ohos:hint="Birthday"
+        ohos:text_size="70px"
+        ohos:hint_color="#CC000000"
+        ohos:top_margin="520vp"
+        ohos:left_margin="80vp"
+        ohos:element_right="$media:Calendar_1"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:txt_curve1"
+        ohos:top_padding="30px"
+        ohos:left_padding="50px"
+        ohos:right_padding="20px"
+        />
+
+    <Button
+        ohos:id="$+id:next_button"
+        ohos:height="40vp"
+        ohos:width="85vp"
+        ohos:text="Next"
+        ohos:text_size="25vp"
+        ohos:top_margin="600vp"
+        ohos:left_margin="45vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:button_home"
+        ohos:clickable="true"
+        ohos:bottom_padding="10px"
+        />
+
+    <Button
+        ohos:id="$+id:last_button"
+        ohos:height="40vp"
+        ohos:width="85vp"
+        ohos:text="Last"
+        ohos:text_size="25vp"
+        ohos:top_margin="600vp"
+        ohos:left_margin="205vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:button"
+        ohos:clickable="true"
+        ohos:bottom_padding="10px"
+        />
+</ScrollView>
+
+</DependentLayout>

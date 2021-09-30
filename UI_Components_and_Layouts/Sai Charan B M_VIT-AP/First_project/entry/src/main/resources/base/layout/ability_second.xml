@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:alignment="horizontal_center"
+    ohos:background_element="#14000000"
+
+    >
+
+
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Personal"
+        ohos:text_size="30vp"
+        ohos:top_margin="10vp"
+        ohos:left_margin="10vp"
+        ohos:bottom_margin="10vp"
+        ohos:focus_border_width="20vp"
+        />
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Name"
+        ohos:text_size="20vp"
+        ohos:top_margin="60vp"
+        ohos:left_margin="10vp"
+        ohos:bottom_margin="10vp"
+        ohos:focus_border_width="20vp"
+        />
+
+    <TextField
+        ohos:height="40vp"
+        ohos:width="320vp"
+        ohos:hint="Sai Charan B M"
+        ohos:auto_font_size="true"
+        ohos:top_margin="90vp"
+        ohos:left_margin="10vp"
+        ohos:background_element="$graphic:txt_curve2"
+        />
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Date of Birth"
+        ohos:text_size="20vp"
+        ohos:top_margin="150vp"
+        ohos:left_margin="10vp"
+        ohos:bottom_margin="10vp"
+        />
+
+    <DatePicker
+        ohos:height="40vp"
+        ohos:width="320vp"
+        ohos:min_date="1970"
+        ohos:top_margin="180vp"
+        ohos:left_margin="10vp"
+        ohos:date_order="day-month-year"/>
+
+<SlideDrawer
+    ohos:height="match_parent"
+    ohos:width="match_content"
+    ohos:theme="$media:user"
+    ohos:top_margin="10vp"
+    ohos:left_margin="40vp"
+    ohos:bottom_margin="10vp"
+    />
+<ListContainer
+    ohos:height="match_parent"
+    ohos:width="match_content"
+    ohos:top_margin="10vp"
+    ohos:left_margin="10vp"
+    ohos:bottom_margin="10vp"/>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="What is your spirit animal?"
+        ohos:text_size="20vp"
+        ohos:top_margin="240vp"
+        ohos:left_margin="10vp"
+        ohos:bottom_margin="10vp"
+        />
+
+    <Button
+        ohos:height="40vp"
+        ohos:width="60vp"
+        ohos:hint="Lion"
+        ohos:text_size="15vp"
+        ohos:hint_color="#CC000000"
+        ohos:top_margin="270vp"
+        ohos:left_margin="10vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:btn_curve1"
+        />
+    <Button
+        ohos:height="40vp"
+        ohos:width="60vp"
+        ohos:hint="Tiger"
+        ohos:text_size="15vp"
+        ohos:hint_color="#CC000000"
+        ohos:top_margin="270vp"
+        ohos:left_margin="72vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="#FFFFFFFF"
+
+        />
+
+    <Button
+        ohos:height="40vp"
+        ohos:width="60vp"
+        ohos:hint="Bear"
+        ohos:text_size="15vp"
+        ohos:hint_color="#CC000000"
+        ohos:top_margin="270vp"
+        ohos:left_margin="134vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="#FFFFFFFF"
+
+        />
+
+    <Button
+        ohos:height="40vp"
+        ohos:width="60vp"
+        ohos:hint="Bull"
+        ohos:text_size="15vp"
+        ohos:hint_color="#CC000000"
+        ohos:top_margin="270vp"
+        ohos:left_margin="196vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="#FFFFFFFF"
+
+        />
+
+    <Button
+        ohos:height="40vp"
+        ohos:width="70vp"
+        ohos:hint="Serval"
+        ohos:text_size="15vp"
+        ohos:hint_color="#CC000000"
+        ohos:top_margin="270vp"
+        ohos:left_margin="258vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:btn_curve2"
+
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Account"
+        ohos:text_size="30vp"
+        ohos:top_margin="340vp"
+        ohos:left_margin="10vp"
+        ohos:bottom_margin="10vp"
+        ohos:focus_border_width="20vp"
+        />
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Email"
+        ohos:text_size="20vp"
+        ohos:top_margin="390vp"
+        ohos:left_margin="10vp"
+        ohos:bottom_margin="10vp"
+        />
+
+    <TextField
+        ohos:height="40vp"
+        ohos:width="320vp"
+        ohos:hint="saicharanbm@gmail.com"
+        ohos:auto_font_size="true"
+        ohos:top_margin="420vp"
+        ohos:left_margin="10vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:txt_curve2"
+        />
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Password"
+        ohos:text_size="20vp"
+        ohos:top_margin="480vp"
+        ohos:left_margin="10vp"
+        ohos:bottom_margin="10vp"
+        />
+
+    <TextField
+        ohos:height="40vp"
+        ohos:width="320vp"
+        ohos:text_input_type="pattern_password"
+        ohos:auto_font_size="true"
+        ohos:top_margin="510vp"
+        ohos:left_margin="10vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:txt_curve2"
+        />
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Verify Password"
+        ohos:text_size="20vp"
+        ohos:top_margin="570vp"
+        ohos:left_margin="10vp"
+        ohos:bottom_margin="10vp"
+        />
+
+    <TextField
+        ohos:height="40vp"
+        ohos:width="320vp"
+        ohos:text_input_type="pattern_password"
+        ohos:auto_font_size="true"
+        ohos:top_margin="600vp"
+        ohos:left_margin="10vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:txt_curve2"
+        />
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Contact"
+        ohos:text_size="30vp"
+        ohos:top_margin="670vp"
+        ohos:left_margin="20vp"
+        ohos:bottom_margin="10vp"
+        ohos:focus_border_width="20vp"
+        />
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Address"
+        ohos:text_size="20vp"
+        ohos:top_margin="730vp"
+        ohos:left_margin="20vp"
+        ohos:bottom_margin="10vp"
+        />
+
+    <TextField
+        ohos:height="40vp"
+        ohos:width="320vp"
+        ohos:hint="VIT"
+        ohos:auto_font_size="true"
+        ohos:top_margin="760vp"
+        ohos:left_margin="20vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:txt_curve2"
+        />
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="City"
+        ohos:text_size="20vp"
+        ohos:top_margin="820vp"
+        ohos:left_margin="20vp"
+        ohos:bottom_margin="10vp"
+        />
+
+    <TextField
+        ohos:height="40vp"
+        ohos:width="320vp"
+        ohos:auto_font_size="true"
+        ohos:top_margin="850vp"
+        ohos:left_margin="20vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:txt_curve2"
+        />
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="State"
+        ohos:text_size="20vp"
+        ohos:top_margin="900vp"
+        ohos:left_margin="20vp"
+        ohos:bottom_margin="10vp"
+        />
+
+    <TextField
+        ohos:height="40vp"
+        ohos:width="320vp"
+        ohos:auto_font_size="true"
+        ohos:top_margin="930vp"
+        ohos:left_margin="20vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:txt_curve2"
+        />
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Phone"
+        ohos:text_size="20vp"
+        ohos:top_margin="980vp"
+        ohos:left_margin="20vp"
+        ohos:bottom_margin="10vp"
+        />
+
+    <TextField
+        ohos:height="40vp"
+        ohos:width="320vp"
+        ohos:hint="1234567890"
+        ohos:text_input_type="pattern_number"
+        ohos:auto_font_size="true"
+        ohos:top_margin="1010vp"
+        ohos:left_margin="20vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:txt_curve2"
+        />
+
+</DependentLayout>

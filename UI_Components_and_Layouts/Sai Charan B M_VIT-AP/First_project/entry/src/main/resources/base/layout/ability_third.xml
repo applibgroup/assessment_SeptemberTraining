@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:alignment="horizontal_center"
+    ohos:background_element="$media:background0"
+    >
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="SIGN UP"
+        ohos:text_size="40vp"
+        ohos:top_margin="10vp"
+        ohos:left_margin="330"
+        ohos:bottom_margin="10vp"
+        ohos:focus_border_width="20vp"
+        />
+
+
+
+    <TextField
+        ohos:height="50vp"
+        ohos:width="320vp"
+        ohos:hint="     Email"
+        ohos:element_start="$media:em3"
+        ohos:element_bottom="$media:line"
+        ohos:text_size="70px"
+        ohos:hint_color="#FFFFFF"
+        ohos:top_margin="100vp"
+        ohos:left_margin="19vp"
+
+        />
+
+
+
+    <TextField
+        ohos:height="50vp"
+        ohos:width="320vp"
+        ohos:hint="     Password"
+        ohos:text_input_type="pattern_password"
+        ohos:text_size="70px"
+        ohos:element_start="$media:ps3"
+        ohos:element_bottom="$media:line"
+        ohos:hint_color="#FFFFFF"
+        ohos:top_margin="170vp"
+        ohos:left_margin="19vp"
+        />
+
+
+
+    <TextField
+        ohos:height="50vp"
+        ohos:width="320vp"
+        ohos:hint="     Username"
+        ohos:text_size="70px"
+        ohos:element_start="$media:us3"
+        ohos:element_bottom="$media:line"
+        ohos:hint_color="#FFFFFF"
+        ohos:top_margin="240vp"
+        ohos:left_margin="19vp"
+        />
+
+
+
+    <TextField
+        ohos:height="50vp"
+        ohos:width="320vp"
+        ohos:hint="     Date of birth"
+        ohos:text_size="70px"
+        ohos:element_start="$media:dob3"
+        ohos:element_bottom="$media:line"
+        ohos:hint_color="#FFFFFF"
+        ohos:top_margin="310vp"
+        ohos:left_margin="19vp"
+        />
+
+
+
+    <TextField
+        ohos:height="50vp"
+        ohos:width="320vp"
+        ohos:hint="     Gender"
+        ohos:text_size="70px"
+        ohos:element_start="$media:ge3"
+        ohos:element_bottom="$media:line"
+        ohos:hint_color="#FFFFFF"
+        ohos:top_margin="380vp"
+        ohos:left_margin="19vp"
+        />
+
+    <Button
+        ohos:height="60vp"
+        ohos:width="320vp"
+        ohos:text="Sign up"
+        ohos:text_size="30vp"
+        ohos:text_color="#FFFFFF"
+        ohos:top_margin="450vp"
+        ohos:left_margin="25vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:button"
+        ohos:clickable="true"
+        />
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="or"
+        ohos:text_size="40vp"
+        ohos:text_color="#FFFFFF"
+        ohos:top_margin="530vp"
+        ohos:left_margin="170vp"
+        ohos:focus_border_width="20vp"
+        />
+
+    <Button
+        ohos:height="60vp"
+        ohos:width="320vp"
+        ohos:text="Sign up with facebook"
+        ohos:text_size="30vp"
+        ohos:text_color="#FFFFFF"
+        ohos:top_margin="590vp"
+        ohos:left_margin="25vp"
+        ohos:focus_border_enable="true"
+        ohos:background_element="$graphic:button1"
+        ohos:clickable="true"
+        />
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="By signing, you agree to our Policy"
+        ohos:text_size="22vp"
+        ohos:text_color="#FFFFFF"
+        ohos:top_margin="680vp"
+        ohos:left_margin="10vp"
+        />
+
+</DependentLayout>
