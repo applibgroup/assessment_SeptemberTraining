@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical"
+    ohos:background_element="black">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="SIGN UP"
+        ohos:text_size="20vp"
+        ohos:text_color="white"/>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:alignment="left"
+        ohos:bottom_margin="30vp"
+        ohos:top_margin="30vp">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal">
+            <Image
+                ohos:height="match_parent"
+                ohos:width="30vp"
+                ohos:image_src="$media:envelope"
+                ohos:scale_mode="inside"
+                ohos:right_margin="10vp"/>
+            <TextField
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:hint="Email"
+                ohos:hint_color="white"
+                ohos:text_size="25vp"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal">
+            <Image
+                ohos:height="match_parent"
+                ohos:width="30vp"
+                ohos:image_src="$media:lock"
+                ohos:scale_mode="inside"
+                ohos:right_margin="10vp"
+                ohos:top_margin="5vp"/>
+            <TextField
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:hint="Password"
+                ohos:hint_color="white"
+                ohos:text_size="25vp"
+                ohos:top_margin="10vp"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal">
+            <Image
+                ohos:height="match_parent"
+                ohos:width="30vp"
+                ohos:image_src="$media:user"
+                ohos:scale_mode="inside"
+                ohos:right_margin="10vp"
+                ohos:top_margin="5vp"/>
+            <TextField
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:hint="Username"
+                ohos:hint_color="white"
+                ohos:text_size="25vp"
+                ohos:top_margin="10vp"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal">
+            <Image
+                ohos:height="match_parent"
+                ohos:width="30vp"
+                ohos:image_src="$media:calendar_blank"
+                ohos:scale_mode="inside"
+                ohos:right_margin="10vp"
+                ohos:top_margin="5vp"/>
+            <TextField
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:hint="Date of Birth"
+                ohos:hint_color="white"
+                ohos:text_size="25vp"
+                ohos:top_margin="10vp"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal">
+            <Image
+                ohos:height="match_parent"
+                ohos:width="30vp"
+                ohos:image_src="$media:users"
+                ohos:scale_mode="inside"
+                ohos:right_margin="10vp"
+                ohos:top_margin="5vp"/>
+            <TextField
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:hint="Gender"
+                ohos:hint_color="white"
+                ohos:text_size="25vp"
+                ohos:top_margin="10vp"/>
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+    <Button
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Sign Up"
+        ohos:text_size="20vp"
+        ohos:text_color="white"
+        ohos:background_element="$graphic:background_button"
+        ohos:padding="10vp"
+        ohos:left_padding="110vp"
+        ohos:right_padding="110vp"/>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="or"
+        ohos:text_size="25vp"
+        ohos:text_color="white"
+        ohos:margin="15vp"/>
+
+    <Button
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Sign up with Facebook"
+        ohos:text_size="20vp"
+        ohos:text_color="white"
+        ohos:background_element="$graphic:background_button_facebook"
+        ohos:padding="10vp"
+        ohos:left_padding="45vp"
+        ohos:right_padding="45vp"/>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="By signing up, you agree to Spotify's Privacy Policy"
+        ohos:text_size="10vp"
+        ohos:text_color="white"
+        ohos:top_padding="30vp"/>
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text=" and Terms and Conditions of Use"
+        ohos:text_size="10vp"
+        ohos:text_color="white"/>
+
+</DirectionalLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="REGISTER"
+        ohos:text_size="40vp"/>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:padding="20vp"
+        ohos:top_margin="20vp">
+        <TextField
+            ohos:id="$+id:name"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:hint="Student Name"
+            ohos:text_size="25vp"
+            ohos:top_padding="10vp"/>
+
+        <TextField
+            ohos:id="$+id:id"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:hint="Roll No"
+            ohos:text_size="25vp"
+            ohos:top_padding="10vp"/>
+
+        <TextField
+            ohos:id="$+id:department"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:hint="Department Name"
+            ohos:text_size="25vp"
+            ohos:top_padding="10vp"/>
+
+        <TextField
+            ohos:id="$+id:university"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:hint="University Name"
+            ohos:text_size="25vp"
+            ohos:top_padding="10vp"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Gender"
+            ohos:text_size="25vp"
+            ohos:top_padding="20vp"/>
+
+        <RadioContainer
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+                <RadioButton
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="Male"
+                    ohos:text_size="23vp"/>
+                <RadioButton
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="Female"
+                    ohos:text_size="23vp"/>
+        </RadioContainer>
+
+    </DirectionalLayout>
+
+    <Button
+        ohos:id="$+id:signup"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Submit"
+        ohos:text_size="25vp"
+        ohos:text_color="white"
+        ohos:top_margin="20vp"
+        ohos:background_element="black"
+        ohos:padding="15vp"/>
+
+</DirectionalLayout>
