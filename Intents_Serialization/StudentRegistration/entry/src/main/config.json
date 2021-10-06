@@ -1,0 +1,56 @@
+{
+  "app": {
+    "bundleName": "com.example.studentregistration",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.studentregistration",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.studentregistration.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.studentregistration.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.studentregistration.UserInfoAbility",
+        "icon": "$media:icon",
+        "description": "$string:userinfoability_description",
+        "label": "$string:entry_UserInfoAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}
