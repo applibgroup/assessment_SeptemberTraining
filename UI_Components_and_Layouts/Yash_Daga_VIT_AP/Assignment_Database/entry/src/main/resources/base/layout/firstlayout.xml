@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <Text
+        ohos:id="$+id:Login"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Login"
+        ohos:text_alignment="center"
+        ohos:padding="10vp"
+        ohos:top_margin="20vp"
+        ohos:right_margin="45vp"
+        ohos:left_margin="45vp"
+        ohos:text_color="#FF000000"
+        ohos:text_size="35fp"
+        />
+    <TextField
+        ohos:id="$+id:Email"
+        ohos:below="$id:Login"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Email"
+        ohos:text_alignment="center"
+        ohos:padding="10vp"
+        ohos:top_margin="20vp"
+        ohos:right_margin="45vp"
+        ohos:left_margin="45vp"
+        ohos:text_color="#FF000000"
+        ohos:text_size="35fp"
+        ohos:background_element="$graphic:background_ability_main"
+        />
+    <TextField
+        ohos:id="$+id:Password"
+        ohos:below="$id:Email"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Password"
+        ohos:text_alignment="center"
+        ohos:padding="10vp"
+        ohos:top_margin="20vp"
+        ohos:right_margin="45vp"
+        ohos:left_margin="45vp"
+        ohos:text_color="#FF000000"
+        ohos:text_size="35fp"
+        ohos:background_element="$graphic:background_ability_main"
+        />
+    <Button
+        ohos:id="$+id:ButtonLogin"
+        ohos:below="$id:Password"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Login"
+        ohos:padding="10vp"
+        ohos:top_margin="20vp"
+        ohos:right_margin="45vp"
+        ohos:left_margin="45vp"
+        ohos:text_color="#FF000000"
+        ohos:text_size="35fp"
+        ohos:background_element="$graphic:round_ability_main"
+        />
+
+
+</DependentLayout>
