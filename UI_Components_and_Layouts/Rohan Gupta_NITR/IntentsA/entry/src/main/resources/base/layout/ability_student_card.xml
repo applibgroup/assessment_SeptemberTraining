@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_IdCard"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="Student Id Card"
+        ohos:top_margin="30fp"
+        ohos:text_size="40vp"
+        />
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:id="$+id:stack_layout"
+        ohos:height="330fp"
+        ohos:left_margin="15fp"
+        ohos:top_margin="80fp"
+        ohos:right_margin="15fp"
+
+        ohos:layout_alignment="horizontal_center"
+        ohos:background_element="$graphic:dir_layout_card"
+        ohos:width="350fp">
+
+        <Text
+            ohos:id="$+id:student_info_rollno"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Roll No. :"
+            ohos:text_font="sans-serif-medium"
+            ohos:top_margin="5fp"
+            ohos:layout_alignment="center"
+            ohos:left_margin="0fp"
+            ohos:text_size="30fp"
+            ohos:text_color="#FF070707"
+            />
+
+        <Text
+            ohos:id="$+id:student_info_name"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Name:"
+            ohos:top_margin="20fp"
+            ohos:left_margin="10fp"
+            ohos:text_size="25fp"
+            ohos:text_color="#FF031B98"
+            />
+
+        <Text
+            ohos:id="$+id:student_info_name_view"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Name"
+            ohos:top_margin="0fp"
+            ohos:left_margin="10fp"
+            ohos:text_size="25fp"
+            ohos:text_color="#FFF2F3F8"
+            />
+
+        <Text
+            ohos:id="$+id:student_info_dept_view"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Department:"
+            ohos:top_margin="20fp"
+            ohos:left_margin="10fp"
+            ohos:text_size="25fp"
+            ohos:text_color="#FF031B98"
+            />
+
+        <Text
+            ohos:id="$+id:student_info_dept"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Department"
+            ohos:top_margin="0fp"
+            ohos:left_margin="10fp"
+            ohos:text_size="25fp"
+            ohos:text_color="#FFF7F7F8"
+            />
+
+        <Text
+            ohos:id="$+id:student_info_collegename_view"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="College:"
+            ohos:top_margin="20fp"
+            ohos:left_margin="10fp"
+            ohos:text_size="25fp"
+            ohos:text_color="#FF031B98"
+            />
+
+        <Text
+            ohos:id="$+id:student_info_collegename"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Department"
+            ohos:top_margin="0fp"
+            ohos:left_margin="10fp"
+            ohos:text_size="25fp"
+            ohos:text_color="#FFF7F7F8"
+            />
+        <Text
+            ohos:id="$+id:student_info_university_view"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="University:"
+            ohos:top_margin="20fp"
+            ohos:left_margin="10fp"
+            ohos:text_size="25fp"
+            ohos:text_color="#FF031B98"
+            />
+        <Text
+            ohos:id="$+id:student_info_university"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="University"
+            ohos:top_margin="0fp"
+            ohos:left_margin="10fp"
+            ohos:text_size="25fp"
+            ohos:text_color="#FFF7F7FA"
+            />
+    </DirectionalLayout>
+
+</DirectionalLayout>
