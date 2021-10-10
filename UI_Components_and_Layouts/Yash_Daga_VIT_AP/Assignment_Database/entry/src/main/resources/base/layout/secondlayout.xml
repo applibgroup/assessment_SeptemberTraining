@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:Reset"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="RESET"
+        ohos:text_alignment="center"
+        ohos:padding="10vp"
+        ohos:top_margin="20vp"
+        ohos:right_margin="45vp"
+        ohos:left_margin="45vp"
+        ohos:text_color="#FF000000"
+        ohos:text_size="35fp"
+        />
+
+    <Text
+        ohos:id="$+id:Dialogue"
+        ohos:below="$id:Reset"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Do you want to reset all the fields?"
+        ohos:text_alignment="center"
+        ohos:padding="10vp"
+        ohos:top_margin="15vp"
+        ohos:right_margin="45vp"
+        ohos:left_margin="45vp"
+        ohos:text_color="#FF000000"
+        ohos:text_size="15fp"
+        ohos:background_element="$graphic:background_ability_main"
+        />
+
+    <Text
+        ohos:id="$+id:Yes"
+        ohos:below="$id:Dialogue"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Yes"
+        ohos:text_alignment="center"
+        ohos:padding="10vp"
+        ohos:top_margin="20vp"
+        ohos:right_margin="45vp"
+        ohos:left_margin="45vp"
+        ohos:text_color="#FF000000"
+        ohos:text_size="35fp"
+        ohos:background_element="$graphic:round_ability_main"
+        />
+
+    <Text
+        ohos:id="$+id:No"
+        ohos:below="$id:Yes"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="No"
+        ohos:text_alignment="center"
+        ohos:padding="10vp"
+        ohos:top_margin="20vp"
+        ohos:right_margin="45vp"
+        ohos:left_margin="45vp"
+        ohos:text_color="#FF000000"
+        ohos:text_size="35fp"
+        ohos:background_element="$graphic:round_ability_main"
+        />
+
+
+</DependentLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="Personal Details"
+        ohos:text_size="30fp"
+        ohos:text_color="#FF9D2E2E"
+        ohos:left_margin="15vp"
+        ohos:bottom_margin="15vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Name"
+        ohos:background_element="#C89FDEFF"
+        ohos:text_color="#FF9D2E2E"
+        ohos:text_size="20fp"
+        ohos:left_margin="5vp"
+        ohos:bottom_margin="14vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+        />
+    <TextField
+    ohos:id="$+id:text_field"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:top_margin="50vp"
+    ohos:left_margin="5vp"
+    ohos:left_padding="15vp"
+    ohos:hint="Enter your name "
+    ohos:text_size="20fp"
+    ohos:text_alignment="vertical_center"
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Email"
+        ohos:background_element="#C89FDEFF"
+        ohos:text_color="$ohos:color:id_color_alert_dark"
+        ohos:text_size="20fp"
+        ohos:left_margin="5vp"
+        ohos:bottom_margin="14vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+        />
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:top_margin="50vp"
+        ohos:left_margin="5vp"
+        ohos:left_padding="15vp"
+        ohos:hint="Enter your Email "
+        ohos:text_size="20fp"
+        ohos:text_alignment="vertical_center"
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Date of Birth "
+        ohos:background_element="#C89FDEFF"
+        ohos:text_color="$ohos:color:id_color_badge_red"
+        ohos:text_size="20fp"
+        ohos:left_margin="5vp"
+        ohos:bottom_margin="14vp"
+        ohos:right_padding="15vp"
+        ohos:left_padding="15vp"
+        />
+    <DatePicker
+        ohos:id="$+id:date_pick"
+        ohos:height="match_content"
+        ohos:width="300vp"
+        ohos:background_element="#C89FDEFF">
+    </DatePicker>
+    <Text
+        ohos:id="$+id:text_date"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint="What is your spirit animal?"
+        ohos:background_element="#C89FDEFF"
+        ohos:margin="8vp"
+        ohos:padding="4vp"
+        ohos:text_size="14fp">
+    </Text>
+    <Checkbox
+        ohos:id="$+id:check_box_1"
+        ohos:top_margin="10vp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="A Bull"
+        ohos:text_size="10fp"
+        ohos:text_color_on="#FF3333"
+        ohos:text_color_off="#000000"/>
+    <Checkbox
+        ohos:id="$+id:check_box_2"
+        ohos:top_margin="10vp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="B Bear"
+        ohos:text_size="10fp"
+        ohos:text_color_on="#FF3333"
+        ohos:text_color_off="#000000"/>
+
+    <Checkbox
+        ohos:id="$+id:check_box_3"
+        ohos:top_margin="10vp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="C Tiger"
+        ohos:text_size="10fp"
+        ohos:text_color_on="#FF3333"
+        ohos:text_color_off="#000000" />
+
+    <Checkbox
+        ohos:id="$+id:check_box_4"
+        ohos:top_margin="10vp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="D Lion"
+        ohos:text_size="10fp"
+        ohos:text_color_on="#FF3333"
+        ohos:text_color_off="black" />
+    <Checkbox
+        ohos:id="$+id:check_box_5"
+        ohos:top_margin="10vp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="E Several"
+        ohos:text_size="10fp"
+        ohos:text_color_on="#FF3333"
+        ohos:text_color_off="#000000"/>
+    <Text
+        ohos:id="$+id:Password"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint="Password"
+        ohos:background_element="#C89FDEFF"
+        ohos:margin="8vp"
+        ohos:padding="4vp"
+        ohos:text_size="14fp">
+    </Text>
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:top_margin="50vp"
+        ohos:left_margin="5vp"
+        ohos:left_padding="15vp"
+        ohos:hint="Enter Password"
+        ohos:text_size="20fp"
+        ohos:text_alignment="vertical_center"
+        />
+    <Text
+        ohos:id="$+id:VerifyPassword"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint="Verify Password"
+        ohos:background_element="#C89FDEFF"
+        ohos:margin="8vp"
+        ohos:padding="4vp"
+        ohos:text_size="14fp">
+    </Text>
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:top_margin="50vp"
+        ohos:left_margin="5vp"
+        ohos:left_padding="15vp"
+        ohos:hint="Confirm Password"
+        ohos:text_size="20fp"
+        ohos:text_alignment="vertical_center"
+        />
+
+</DirectionalLayout>
