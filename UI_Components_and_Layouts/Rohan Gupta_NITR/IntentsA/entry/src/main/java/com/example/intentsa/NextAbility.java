@@ -27,7 +27,7 @@ public class NextAbility extends Ability {
 
         if (intent != null) {
             studentInfoName.setText(intent.getStringParam("student_info_name"));
-            studentInfoRollNo.setText(intent.getStringParam("student_info_roll"));
+            studentInfoRollNo.setText(intent.getStringParam("student_info_rollno"));
             studentInfoDept.setText(intent.getStringParam("student_info_dept"));
             studentInfoUniversity.setText(intent.getStringParam("student_info_university"));
         }

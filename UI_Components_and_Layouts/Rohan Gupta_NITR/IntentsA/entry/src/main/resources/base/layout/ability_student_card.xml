@@ -47,7 +47,7 @@
             ohos:width="match_content"
             ohos:text="Name:"
             ohos:top_margin="20fp"
-            ohos:left_margin="10fp"
+            ohos:left_margin="20fp"
             ohos:text_size="25fp"
             ohos:text_color="#FF031B98"
             />
@@ -79,7 +79,7 @@
             ohos:height="match_content"
             ohos:width="match_content"
             ohos:text="Department"
-            ohos:top_margin="0fp"
+            ohos:top_margin="10fp"
             ohos:left_margin="10fp"
             ohos:text_size="25fp"
             ohos:text_color="#FFF7F7F8"

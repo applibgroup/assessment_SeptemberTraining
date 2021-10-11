@@ -42,6 +42,12 @@
         "label": "$string:entry_MainAbility",
         "type": "page",
         "launchType": "standard"
+      },
+      {
+        "name": "com.example.intentsa.NextAbility",
+        "description": "Next Ability",
+        "type": "page",
+        "launchType": "standard"
       }
     ]
   }
