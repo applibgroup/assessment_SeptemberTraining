@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <DirectionalLayout
+
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        >
+        <!--Name-->
+        <Image
+            ohos:height="40vp"
+            ohos:top_margin="35vp"
+            ohos:width="35vp"
+
+            ohos:image_src="$media:user2"
+            ohos:left_margin="5vp"
+            />
+        <TextField
+            ohos:top_margin="30vp"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:left_margin="5vp"
+            ohos:right_margin="10vp"
+            ohos:padding="10vp"
+
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:hint="Name"
+            ohos:text_alignment="left"
+            ohos:text_size="20vp"
+            />
+
+
+
+    </DirectionalLayout>
+    <!--Phone and Area-->
+    <TableLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+
+        ohos:row_count="1"
+        ohos:column_count="3"
+        >
+        <Image
+            ohos:height="40vp"
+            ohos:top_margin="35vp"
+            ohos:width="35vp"
+
+            ohos:image_src="$media:phonecall2"
+
+            ohos:left_margin="5vp"
+            />
+        <TextField
+            ohos:top_margin="30vp"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="5vp"
+            ohos:right_margin="10vp"
+            ohos:padding="10vp"
+
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:hint="Phone  "
+            ohos:text_alignment="left"
+            ohos:text_size="20vp"
+            />
+
+        <TextField
+            ohos:top_margin="30vp"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="5vp"
+            ohos:right_margin="10vp"
+
+            ohos:padding="10vp"
+            ohos:left_padding="20vp"
+            ohos:right_padding="20vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:hint="Area"
+            ohos:text_alignment="left"
+            ohos:text_size="20vp"/>
+    </TableLayout>
+
+
+
+    <!--Address-->
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        >
+        <Image
+            ohos:height="40vp"
+            ohos:top_margin="35vp"
+            ohos:width="35vp"
+
+            ohos:image_src="$media:location"
+            ohos:left_margin="5vp"
+            />
+        <TextField
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:hint="Address"
+            ohos:left_margin="5vp"
+            ohos:top_margin="30vp"
+            ohos:padding="10vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:text_size="20vp"/>
+
+
+    </DirectionalLayout>
+    <!--City-->
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        >
+
+        <TextField
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:hint="City"
+            ohos:left_margin="40vp"
+            ohos:top_margin="30vp"
+            ohos:padding="10vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:text_size="20vp"/>
+
+
+    </DirectionalLayout>
+
+    <!--State and Zip-->
+
+    <TableLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+
+        ohos:row_count="1"
+        ohos:column_count="2"
+        >
+
+        <TextField
+            ohos:top_margin="30vp"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="40vp"
+            ohos:right_margin="10vp"
+            ohos:padding="10vp"
+
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:hint="State  "
+            ohos:text_alignment="left"
+            ohos:text_size="20vp"
+            />
+
+        <TextField
+            ohos:top_margin="30vp"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="50vp"
+            ohos:right_margin="10vp"
+
+            ohos:padding="10vp"
+            ohos:left_padding="20vp"
+            ohos:right_padding="20vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:hint="Zip"
+            ohos:text_alignment="left"
+            ohos:text_size="20vp"/>
+    </TableLayout>
+
+    <!--Email-->
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        >
+        <Image
+            ohos:height="40vp"
+            ohos:top_margin="35vp"
+            ohos:width="35vp"
+            ohos:image_src="$media:email"
+            ohos:left_margin="5vp"
+            />
+        <TextField
+            ohos:top_margin="30vp"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:left_margin="5vp"
+            ohos:right_margin="10vp"
+            ohos:padding="10vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:hint="Email"
+            ohos:text_alignment="left"
+            ohos:text_size="20vp"
+            />
+    </DirectionalLayout>
+    <!--Birthday-->
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        >
+        <Image
+            ohos:height="40vp"
+            ohos:top_margin="35vp"
+            ohos:width="35vp"
+            ohos:image_src="$media:calendar"
+            ohos:left_margin="5vp"
+            />
+        <TextField
+            ohos:top_margin="30vp"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:left_margin="5vp"
+            ohos:right_margin="10vp"
+            ohos:padding="10vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:hint="Birthday"
+            ohos:text_alignment="left"
+            ohos:text_size="20vp"
+            />
+    </DirectionalLayout>
+</DirectionalLayout>
