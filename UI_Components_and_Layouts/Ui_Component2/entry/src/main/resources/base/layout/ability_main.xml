@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical"
+    ohos:background_element="#F5F5F5">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical"
+        ohos:padding="10vp">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:bottom_margin="30vp">
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Personal"
+                ohos:text_size="30vp"/>
+            <DirectionalLayout
+                ohos:height="2vp"
+                ohos:width="match_parent"
+                ohos:background_element="black"
+                ohos:bottom_margin="10vp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Name"
+                ohos:text_size="25vp"/>
+            <TextField
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:hint="John Doe"
+                ohos:text_size="25vp"
+                ohos:background_element="white"
+                ohos:padding="5vp"
+                ohos:bottom_margin="10vp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Date of Birth"
+                ohos:text_size="25vp"/>
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:orientation="horizontal"
+                ohos:bottom_margin="10vp">
+                <TextField
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:hint="Month"
+                    ohos:text_size="25vp"
+                    ohos:background_element="white"
+                    ohos:padding="5vp"
+                    ohos:right_margin="15vp"/>
+                <TextField
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:hint="Day"
+                    ohos:text_size="25vp"
+                    ohos:background_element="white"
+                    ohos:padding="5vp"
+                    ohos:right_margin="15vp"/>
+                <TextField
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:hint="Year"
+                    ohos:text_size="25vp"
+                    ohos:background_element="white"
+                    ohos:padding="5vp"/>
+            </DirectionalLayout>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="What is your spirit animal?"
+                ohos:text_size="25vp"/>
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content">
+
+                <RadioContainer
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:orientation="horizontal">
+                    <RadioButton
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="Lion"
+                        ohos:text_size="20vp"
+                        ohos:background_element="white"
+                        ohos:padding="2vp"/>
+                    <RadioButton
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="Tiger"
+                        ohos:text_size="20vp"
+                        ohos:background_element="white"
+                        ohos:padding="2vp"/>
+                    <RadioButton
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="Bear"
+                        ohos:text_size="20vp"
+                        ohos:background_element="white"
+                        ohos:padding="2vp"/>
+                    <RadioButton
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="Bull"
+                        ohos:text_size="20vp"
+                        ohos:background_element="white"
+                        ohos:padding="2vp"/>
+                    <RadioButton
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="Serval"
+                        ohos:text_size="20vp"
+                        ohos:background_element="white"
+                        ohos:padding="2vp"/>
+                </RadioContainer>
+
+            </DirectionalLayout>
+
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:bottom_margin="30vp">
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Account"
+                ohos:text_size="30vp"/>
+            <DirectionalLayout
+                ohos:height="2vp"
+                ohos:width="match_parent"
+                ohos:background_element="black"
+                ohos:bottom_margin="10vp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Email"
+                ohos:text_size="25vp"/>
+            <TextField
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:hint="john@johndoe.com"
+                ohos:text_size="25vp"
+                ohos:background_element="white"
+                ohos:padding="5vp"
+                ohos:bottom_margin="10vp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Password"
+                ohos:text_size="25vp"/>
+            <TextField
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:background_element="white"
+                ohos:text_size="25vp"
+                ohos:padding="5vp"
+                ohos:bottom_margin="10vp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Verify Password"
+                ohos:text_size="25vp"/>
+            <TextField
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:background_element="white"
+                ohos:text_size="25vp"
+                ohos:padding="5vp"/>
+
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:bottom_margin="30vp">
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Contact"
+                ohos:text_size="30vp"/>
+            <DirectionalLayout
+                ohos:height="2vp"
+                ohos:width="match_parent"
+                ohos:background_element="black"
+                ohos:bottom_margin="10vp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Address"
+                ohos:text_size="25vp"/>
+            <TextField
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:hint="938 Jackson St."
+                ohos:text_size="25vp"
+                ohos:background_element="white"
+                ohos:padding="5vp"
+                ohos:bottom_margin="10vp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="City"
+                ohos:text_size="25vp"/>
+            <TextField
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:hint="938 Jackson St."
+                ohos:text_size="25vp"
+                ohos:background_element="white"
+                ohos:padding="5vp"
+                ohos:bottom_margin="10vp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="State"
+                ohos:text_size="25vp"/>
+            <TextField
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:hint="-Select your state-"
+                ohos:text_size="25vp"
+                ohos:hint_color="black"
+                ohos:background_element="white"
+                ohos:padding="5vp"
+                ohos:bottom_margin="10vp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Phone"
+                ohos:text_size="25vp"/>
+            <TextField
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:hint="837.383.3678"
+                ohos:text_size="25vp"
+                ohos:background_element="white"
+                ohos:padding="5vp"/>
+
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+</ScrollView>

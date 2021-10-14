@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_IdCard",
+      "value": "entry_IdCard"
+    },
+    {
+      "name": "idcard_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "idcard_HelloWorld",
+      "value": "Hello World"
+    }
+  ]
+}
