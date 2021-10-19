@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:padding="30vp"
+    ohos:orientation="vertical">
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="REGISTER"
+        ohos:text_size="40vp"
+        ohos:padding="10vp"
+        ohos:margin="30vp"
+        ohos:layout_alignment="center"/>
+    <TextField
+        ohos:id="$+id:stuname"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:focus_border_enable="true"
+        ohos:hint="Student Name"
+        ohos:bottom_margin="20vp"
+        ohos:text_size="20vp"
+        ohos:background_element="$graphic:border_field"
+        />
+    <TextField
+        ohos:id="$+id:sturollno"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:focus_border_enable="true"
+        ohos:hint="Roll No"
+        ohos:bottom_margin="20vp"
+        ohos:text_size="20vp"
+        ohos:background_element="$graphic:border_field"
+        />
+    <TextField
+        ohos:id="$+id:studeptname"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:focus_border_enable="true"
+        ohos:hint="Department Name"
+        ohos:bottom_margin="20vp"
+        ohos:text_size="20vp"
+        ohos:background_element="$graphic:border_field"
+        />
+    <TextField
+        ohos:id="$+id:stucollegename"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:focus_border_enable="true"
+        ohos:hint="College Name"
+        ohos:bottom_margin="20vp"
+        ohos:text_size="20vp"
+        ohos:background_element="$graphic:border_field"
+        />
+    <TextField
+        ohos:id="$+id:stuunivname"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:focus_border_enable="true"
+        ohos:hint="University Name"
+        ohos:bottom_margin="20vp"
+        ohos:text_size="20vp"
+        ohos:background_element="$graphic:border_field"
+        />
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="20vp"
+        ohos:top_margin="20vp"
+        ohos:bottom_margin="10vp"
+        ohos:text="Gender"/>
+
+    <RadioContainer
+        ohos:id="$+id:rd"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+        <RadioButton
+            ohos:id="$+id:rb1"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Male"
+            ohos:text_size="20vp"
+            ohos:right_padding="40vp"
+            />
+        <RadioButton
+            ohos:id="$+id:rb2"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="20vp"
+            ohos:text="Female"/>
+    </RadioContainer>
+    <Button
+        ohos:id="$+id:signbtn"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Signup"
+        ohos:text_size="15vp"
+        ohos:background_element="$graphic:border_field"
+        ohos:focus_border_enable="true"
+        ohos:layout_alignment="center"
+        ohos:top_margin="20vp"
+        ohos:padding="10vp"/>
+
+</DirectionalLayout>

@@ -1,0 +1,67 @@
+{
+  "app": {
+    "bundleName": "com.example.database",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.database",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.database.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.database.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.database.Login",
+        "icon": "$media:icon",
+        "description": "$string:login_description",
+        "label": "$string:entry_Login",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "permissions": [
+          "com.example.database.DataAbilityShellProvider.PROVIDER"
+        ],
+        "name": "com.example.database.DbHelper",
+        "icon": "$media:icon",
+        "description": "$string:dbhelper_description",
+        "type": "data",
+        "uri": "dataability://com.example.database.DbHelper"
+      }
+    ]
+  }
+}
