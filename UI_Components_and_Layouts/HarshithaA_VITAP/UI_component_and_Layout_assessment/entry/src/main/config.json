@@ -1,0 +1,66 @@
+{
+  "app": {
+    "bundleName": "com.example.ui_component_and_layout_assessment",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.ui_component_and_layout_assessment",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.ui_component_and_layout_assessment.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.ui_component_and_layout_assessment.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.ui_component_and_layout_assessment.MainAbility2",
+        "icon": "$media:icon",
+        "description": "$string:mainability2_description",
+        "label": "$string:entry_MainAbility2",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.ui_component_and_layout_assessment.MainAbility3",
+        "icon": "$media:icon",
+        "description": "$string:mainability3_description",
+        "label": "$string:entry_MainAbility3",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}
