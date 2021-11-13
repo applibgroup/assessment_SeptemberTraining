@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Student ID Card"
+        ohos:text_size="40vp"
+        />
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="100vp"
+        ohos:padding="20vp"
+        ohos:background_element="$graphic:backgroung_card"
+        >
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="UR12CS171"
+            ohos:text_color="black"
+            ohos:text_size="35vp"
+            ohos:layout_alignment="center"
+            ohos:bottom_margin="20vp"
+            />
+        <Text
+            ohos:id="$+id:user_info_name"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Name"
+            ohos:text_size="20vp"
+            ohos:text_color="blue"
+            />
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Jarvo Singh"
+            ohos:text_size="20vp"
+            ohos:text_color="white"
+            />
+        <Text
+            ohos:id="$+id:user_info_department"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Department"
+            ohos:text_size="20vp"
+            ohos:text_alignment="left"
+            ohos:text_color="blue"
+            />
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Computer Science Engineering"
+            ohos:text_size="20vp"
+            ohos:bottom_margin="10vp"
+            ohos:text_color="white"
+            />
+        <Text
+            ohos:id="$+id:user_info_university"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="University"
+            ohos:text_size="20vp"
+            ohos:text_color="blue"
+            />
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Standford University"
+            ohos:text_size="20vp"
+            ohos:bottom_margin="10vp"
+            ohos:text_color="white"
+            />
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

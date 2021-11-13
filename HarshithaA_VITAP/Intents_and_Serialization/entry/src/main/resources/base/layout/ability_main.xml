@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:top_margin="25vp"
+    ohos:background_element="#FFFDFDFC"
+    ohos:layout_alignment="horizontal_center">
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#FFD0D0C7"
+        ohos:orientation="vertical">
+
+        <Text
+            ohos:id="$+id:text_Register"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:layout_alignment="center"
+            ohos:text="REGISTER"
+            ohos:top_margin="25vp"
+            ohos:text_size="40vp"
+            ohos:text_color="#FF090000"
+            />
+
+        <TextField
+            ohos:id="$+id:Name"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:hint="Student Name"
+            ohos:hint_color="#FF0E0101"
+            ohos:text_size="25vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:text_color="#FF070000"
+            ohos:top_margin="20vp"
+            ohos:left_margin="30vp"
+            ohos:left_padding="40vp"
+            ohos:element_padding="10vp"
+            ohos:right_padding="40vp"
+            />
+        <TextField
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:id="$+id:RollNo"
+            ohos:hint="Roll No"
+            ohos:text_size="25vp"
+            ohos:hint_color="#FF0C0000"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:top_margin="10vp"
+            ohos:left_margin="30vp"
+            ohos:left_padding="20vp"
+            ohos:right_padding="20vp"
+            ohos:element_padding="10vp"
+            />
+
+        <TextField
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:id="$+id:DepartmentName"
+            ohos:hint="Department Name"
+            ohos:text_size="25vp"
+            ohos:hint_color="#FF130101"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:top_margin="10vp"
+            ohos:left_margin="30vp"
+            ohos:left_padding="20vp"
+            ohos:right_padding="20vp"
+            ohos:element_padding="10vp"
+            />
+
+        <TextField
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:id="$+id:CollegeName"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:hint="College Name"
+            ohos:hint_color="#FF100F0F"
+            ohos:text_size="25vp"
+            ohos:top_margin="10vp"
+            ohos:left_margin="30vp"
+            ohos:left_padding="20vp"
+            ohos:right_padding="20vp"
+            ohos:element_padding="10vp"
+            />
+
+        <TextField
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:id="$+id:UniversityName"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:hint="University Name"
+            ohos:text_size="25vp"
+            ohos:top_margin="10vp"
+            ohos:hint_color="#FF1A0101"
+            ohos:left_margin="30vp"
+            ohos:left_padding="20vp"
+            ohos:right_padding="20vp"
+            ohos:element_padding="10vp"
+            />
+
+        <Text
+            ohos:id="$+id:text_Gender"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:text="Gender"
+            ohos:top_margin="10vp"
+            ohos:left_margin="30vp"
+            ohos:text_size="25vp"
+            />
+
+        <RadioContainer
+            ohos:id="$+id:radio_container"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:top_margin="10fp"
+            ohos:left_margin="30vp"
+            ohos:orientation="horizontal">
+            <RadioButton
+                ohos:id="$+id:radio_button_male"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Male"
+                ohos:text_size="25vp"
+                ohos:right_padding="20vp"
+                />
+            <RadioButton
+                ohos:id="$+id:radio_button_female"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Female"
+                ohos:text_size="25vp"
+                />
+        </RadioContainer>
+        <Button
+            ohos:id="$+id:signup"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text_size="30vp"
+            ohos:text="SIGN UP"
+            ohos:layout_alignment="center"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:left_margin="20vp"
+            ohos:bottom_margin="20vp"
+            ohos:right_padding="20vp"
+            ohos:left_padding="20vp"
+            ohos:text_color="#FF010113"
+            ohos:top_margin="50fp"
+
+            />
+    </DirectionalLayout>
+</ScrollView>
