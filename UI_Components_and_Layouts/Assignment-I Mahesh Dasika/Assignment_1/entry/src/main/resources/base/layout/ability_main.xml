@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:scrollview"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#50000000"
+    ohos:bottom_padding="16vp"
+    ohos:layout_alignment="horizontal_center"
+    ohos:top_margin="32vp">
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="vertical">
+
+        <TextField
+            ohos:id="$+id:button"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#50000000"
+            ohos:bottom_margin="30vp"
+            ohos:hint="Name"
+            ohos:hint_color="#2B2B2B"
+            ohos:padding="10fp"
+            ohos:right_margin="20fp"
+            ohos:start_margin="20fp"
+            ohos:text_size="24fp"
+            />
+
+        <DependentLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:bottom_margin="30fp"
+            >
+
+            <TextField
+                ohos:id="$+id:phone"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:background_element="#50000000"
+                ohos:end_padding="100fp"
+                ohos:hint="Phone"
+                ohos:hint_color="#2B2B2B"
+                ohos:padding="10fp"
+                ohos:start_padding="10fp"
+                ohos:text_size="24fp"
+                />
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:background_element="#50000000"
+                ohos:end_padding="60fp"
+                ohos:hint="Area"
+                ohos:hint_color="#2B2B2B"
+                ohos:left_margin="10fp"
+                ohos:padding="10fp"
+                ohos:right_of="$id:phone"
+                ohos:start_padding="10fp"
+                ohos:text_size="24fp"
+                />
+
+        </DependentLayout>
+
+        <TextField
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#50000000"
+            ohos:bottom_margin="30vp"
+            ohos:hint="Address"
+            ohos:hint_color="#2B2B2B"
+            ohos:padding="10fp"
+            ohos:right_margin="20fp"
+            ohos:start_margin="20fp"
+            ohos:text_size="24fp"
+            />
+
+        <TextField
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#50000000"
+            ohos:bottom_margin="30vp"
+            ohos:hint="City"
+            ohos:hint_color="#2B2B2B"
+            ohos:padding="10fp"
+            ohos:right_margin="20fp"
+            ohos:start_margin="20fp"
+            ohos:text_size="24fp"
+            />
+
+        <DependentLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:bottom_margin="30fp"
+            >
+
+            <TextField
+                ohos:id="$+id:state"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:background_element="#50000000"
+                ohos:end_padding="130fp"
+                ohos:hint="State"
+                ohos:hint_color="#2B2B2B"
+                ohos:padding="10fp"
+                ohos:start_padding="10fp"
+                ohos:text_size="24fp"
+                />
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:background_element="#50000000"
+                ohos:end_padding="70fp"
+                ohos:hint="Zip"
+                ohos:hint_color="#2B2B2B"
+                ohos:left_margin="10fp"
+                ohos:padding="10fp"
+                ohos:right_of="$id:state"
+                ohos:start_padding="10fp"
+                ohos:text_size="24fp"
+                />
+
+        </DependentLayout>
+
+        <TextField
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#50000000"
+            ohos:bottom_margin="30vp"
+            ohos:hint="Email"
+            ohos:hint_color="#2B2B2B"
+            ohos:padding="10fp"
+            ohos:right_margin="20fp"
+            ohos:start_margin="20fp"
+            ohos:text_size="24fp"
+
+            />
+
+        <TextField
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#50000000"
+            ohos:bottom_margin="30vp"
+            ohos:hint="Birthday"
+            ohos:hint_color="#2B2B2B"
+            ohos:padding="10fp"
+            ohos:right_margin="20fp"
+            ohos:start_margin="20fp"
+            ohos:text_size="24fp"
+
+            />
+
+    </DirectionalLayout>
+</ScrollView>
