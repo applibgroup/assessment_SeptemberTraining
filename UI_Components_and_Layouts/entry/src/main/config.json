@@ -1,0 +1,68 @@
+{
+  "app": {
+    "bundleName": "com.ajith.assignment",
+    "vendor": "ajith",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.ajith.assignment",
+    "name": ".MyApplication",
+    "mainAbility": "com.ajith.assignment.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv",
+      "wearable",
+      "car"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": true
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.ajith.assignment.MainAbility",
+        "icon": "$media:backbutton",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.ajith.assignment.MainAbility2",
+        "icon": "$media:backbutton",
+        "description": "$string:mainability2_description",
+        "label": "$string:entry_MainAbility2",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.ajith.assignment.MainAbility3",
+        "icon": "$media:icon",
+        "description": "$string:mainability3_description",
+        "label": "$string:entry_MainAbility3",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}
