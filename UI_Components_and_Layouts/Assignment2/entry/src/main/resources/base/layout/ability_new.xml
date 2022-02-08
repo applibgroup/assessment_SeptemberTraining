@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:buttonbg"
+        ohos:layout_alignment="center"
+        ohos:margin="10fp"
+        >
+
+        <Text
+            ohos:id="$+id:name"
+            ohos:height="match_content"
+            ohos:width="300fp"
+            ohos:background_element="$graphic:textfieldbg"
+            ohos:focus_border_enable="true"
+            ohos:focus_border_width="3fp"
+            ohos:left_margin="20fp"
+            ohos:padding="10fp"
+            ohos:text="Mahesh Dasika"
+            ohos:text_input_type="pattern_text"
+            ohos:text_size="20vp"
+            ohos:top_margin="22fp"
+            />
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="300fp"
+            ohos:background_element="$graphic:textfieldbg"
+            ohos:focus_border_enable="true"
+            ohos:focus_border_width="3fp"
+            ohos:left_margin="20fp"
+            ohos:padding="10fp"
+            ohos:text="20BCIXXXX"
+            ohos:text_input_type="pattern_text"
+            ohos:text_size="20vp"
+            ohos:top_margin="22fp"
+            />
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="300fp"
+            ohos:background_element="$graphic:textfieldbg"
+            ohos:focus_border_enable="true"
+            ohos:focus_border_width="3fp"
+            ohos:left_margin="20fp"
+            ohos:padding="10fp"
+            ohos:text="Computer Science"
+            ohos:text_input_type="pattern_text"
+            ohos:text_size="20vp"
+            ohos:top_margin="22fp"
+            />
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="300fp"
+            ohos:background_element="$graphic:textfieldbg"
+            ohos:focus_border_enable="true"
+            ohos:focus_border_width="3fp"
+            ohos:left_margin="20fp"
+            ohos:padding="10fp"
+            ohos:text="Vellore Institute of Techmology"
+            ohos:text_input_type="pattern_text"
+            ohos:text_size="20vp"
+            ohos:top_margin="22fp"
+            ohos:bottom_margin="20fp"
+            />
+
+    </DirectionalLayout>
+</DirectionalLayout>
