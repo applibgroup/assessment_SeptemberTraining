@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#C0D8C0"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_helloworld"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="Register"
+        ohos:text_size="30vp"
+        />
+
+    <TextField
+        ohos:id="$+id:name"
+        ohos:height="match_content"
+        ohos:width="300fp"
+        ohos:background_element="$graphic:textfieldbg"
+        ohos:focus_border_enable="true"
+        ohos:focus_border_width="3fp"
+        ohos:hint="Student Name"
+        ohos:left_margin="30fp"
+        ohos:padding="10fp"
+        ohos:text_input_type="pattern_text"
+        ohos:text_size="20vp"
+        ohos:top_margin="22fp"
+        />
+
+
+    <TextField
+        ohos:id="$+id:reg"
+        ohos:height="match_content"
+        ohos:width="300fp"
+        ohos:background_element="$graphic:textfieldbg"
+        ohos:focus_border_enable="true"
+        ohos:focus_border_width="3fp"
+        ohos:hint="Registration Number"
+        ohos:left_margin="30fp"
+        ohos:padding="10fp"
+        ohos:text_input_type="pattern_text"
+        ohos:text_size="20vp"
+        ohos:top_margin="22fp"
+        />
+
+
+    <TextField
+        ohos:id="$+id:dep"
+        ohos:height="match_content"
+        ohos:width="300fp"
+        ohos:background_element="$graphic:textfieldbg"
+        ohos:focus_border_enable="true"
+        ohos:focus_border_width="3fp"
+        ohos:hint="Department "
+        ohos:left_margin="30fp"
+        ohos:padding="10fp"
+        ohos:text_input_type="pattern_text"
+        ohos:text_size="20vp"
+        ohos:top_margin="22fp"
+        />
+
+
+    <TextField
+        ohos:id="$+id:coll"
+        ohos:height="match_content"
+        ohos:width="300fp"
+        ohos:background_element="$graphic:textfieldbg"
+        ohos:focus_border_enable="true"
+        ohos:focus_border_width="3fp"
+        ohos:hint="College Name"
+        ohos:left_margin="30fp"
+        ohos:padding="10fp"
+        ohos:text_input_type="pattern_text"
+        ohos:text_size="20vp"
+        ohos:top_margin="22fp"
+        />
+
+    <TextField
+        ohos:id="$+id:uni"
+        ohos:height="match_content"
+        ohos:width="300fp"
+        ohos:background_element="$graphic:textfieldbg"
+        ohos:focus_border_enable="true"
+        ohos:focus_border_width="3fp"
+        ohos:hint="University Name"
+        ohos:left_margin="30fp"
+        ohos:padding="10fp"
+        ohos:text_input_type="pattern_text"
+        ohos:text_size="20vp"
+        ohos:top_margin="22fp"
+        />
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical"
+        ohos:background_element="$graphic:textfieldbg"
+        ohos:padding="10fp"
+        ohos:margin="30fp"
+        >
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="30fp"
+            ohos:text="Gender"
+            ohos:text_input_type="pattern_text"
+            ohos:text_size="20vp"
+            ohos:top_margin="22fp"
+            />
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal"
+            >
+
+            <Checkbox
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="30fp"
+                ohos:text="Male"
+                ohos:text_input_type="pattern_text"
+                ohos:text_size="20vp"
+                ohos:top_margin="22fp"
+                />
+            <Checkbox
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="30fp"
+                ohos:text="Female"
+                ohos:text_input_type="pattern_text"
+                ohos:text_size="20vp"
+                ohos:top_margin="22fp"
+                />
+
+
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+    <Button
+        ohos:id="$+id:btn"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Submit"
+        ohos:background_element="$graphic:textfieldbg"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text_size="20vp"
+        ohos:top_margin="22fp"
+        ohos:padding="20fp"
+        />
+
+</DirectionalLayout>
